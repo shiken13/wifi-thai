@@ -35,10 +35,11 @@ main {
   width: 100%;
   overflow: hidden;
   height: 100%;
-  background: radial-gradient(#FFF, #FFC778 40%, #F13F79);
+  background: radial-gradient(#fff, #ffc778 40%, #f13f79);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: url(/image/back.jpg) center center no-repeat;
+  background: url("../image/back.jpg") center center no-repeat;
+  background-image: url("../image/back.jpg");
   background-size: cover;
 }
 
@@ -59,7 +60,7 @@ header .logo1 {
 }
 
 header .top-title {
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
   color: yellow;
   position: absolute;
   top: 50%;
@@ -132,8 +133,8 @@ header .japan-flag {
   /* Button height */
   line-height: 70px;
   /* Button height */
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   text-align: center;
   width: 100px;
   /* Button width */
