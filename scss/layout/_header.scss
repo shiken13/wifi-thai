@@ -1,0 +1,163 @@
+main {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  // padding-top: 50px;
+  background: -moz-radial-gradient(#FFF, #FFC778 40%, #F13F79); 
+  background: -webkit-radial-gradient(#FFF, #FFC778 40%, #F13F79); 
+  background: radial-gradient(#FFF, #FFC778 40%, #F13F79); 
+  box-sizing: border-box;
+    background: url(/image/back.jpg) center center no-repeat;
+    background-size: cover;
+}
+header{
+  max-width: 1300px;
+  margin: 0 auto;
+  position: relative;
+  .logo1{
+    mix-blend-mode: multiply;
+    width: 10%;
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+  }
+  .top-title{
+    font-family: 'Noto Serif JP', serif;
+    color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: bold;
+    .title1{
+      font-size: 1.6em;
+    }
+    .title2{
+      font-size: 1.8em;
+    }
+    .title-lower{
+      border-bottom: 3px solid yellow;
+    }
+  }
+  ul{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .tai-flag{
+    width: 25%;
+    // opacity: 0.7;
+    background-color: white;
+  }
+  .japan-flag{
+    width: 25%;
+    // opacity: 0.7;
+    background-color: white;
+  }
+}
+
+
+#messenger {
+  overflow: hidden;
+  position: absolute;
+  position: fixed;
+  list-style: none;
+  margin: 0 0 -8px;
+  overflow: hidden;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  right: 0px;
+  bottom:220px;
+  z-index: 100;
+  border: white 1px solid;
+  a::before {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 50px;
+    height: 100px; /* Button height */
+    line-height: 70px; /* Button height */
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    text-align: center;
+    width: 100px; /* Button width */
+    padding-top: 5px;
+  }
+  a[href*="m.me"]::before{
+     background-color: #0e44f7; content: "\f39f"; 
+  }
+  &::after {
+    content: "Messenger";
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+     
+}
+#page_top {
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  border: white 1px solid;
+  position: fixed;
+  right: 0px;
+  bottom:90px;
+  background: #d1022f;
+  // border-radius: 50%;
+  z-index: 100;
+
+  a {
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+    &::before {
+      // font-family: "Font Awesome 5 Free";
+      // font-weight: 900;
+      content: "";
+      font-size: 25px;
+      color: #fff;
+      position: absolute;
+      width: 20px;
+      height: 10px;
+      top: -50px;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: auto;
+      text-align: center;
+      width: 0px;
+      border-style: solid;
+      border-width: 15px;
+      border-left-color: transparent;
+      border-top-color: transparent;
+      border-right-color: transparent;
+    }
+    &::after {
+      content: "Top";
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff;
+      position: absolute;
+      top: 55px;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: auto;
+      text-align: center;
+    }
+  }
+}

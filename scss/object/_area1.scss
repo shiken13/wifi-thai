@@ -1,0 +1,269 @@
+#area1{
+  margin-top: 50px;
+  .area1-wrapper{
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  .introduce-content{
+    display: flex;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 10px;
+    background-color:rgba(255,255,255,0.5);
+    .area1-list{
+      position: relative;
+      p{
+        position: absolute;
+        z-index: 5;
+        color:red;
+        font-weight: bold;
+        font-size: 3rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+  h2 { 
+    position: relative; 
+    overflow: hidden; 
+    padding: 1.5rem 2rem 1.5rem 130px; 
+    border-top: 3px solid red; 
+  } 
+
+  h2:before { 
+    position: absolute; 
+    top: -150%; 
+    left: -100px; 
+    width: 210px; 
+    height: 300%; 
+    content: ''; 
+    -webkit-transform: rotate(25deg); 
+    transform: rotate(25deg); 
+    background: red;
+  } 
+  
+  h2 span { 
+    font-size: 4rem; 
+    position: absolute; 
+    z-index: 1; 
+    top: -10px; 
+    left: 0; 
+    display: block; 
+    padding-top: 0px; 
+    padding-left: 16px; 
+    color: white; 
+  }
+  .area1-image1{
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+  }
+  .area1-image2{
+    width: 18%;
+  }
+  .intro-text{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.8;
+    // letter-spacing: .1em;
+    width: 100%;
+    padding: 5px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    // font-style: italic; 
+    .GB1{
+      font-size: 2rem;
+      color:#8cc63f;
+    }
+    .GB2{
+      font-size: 2rem;
+      color:#8cc63f;
+    }
+    .GB3{
+      font-size: 2rem;
+      color: #63bdde;
+    }
+    .GB4{
+      font-size: 2rem;
+      color: #f0aa4c;
+    }
+    .GB5{
+      font-size: 2rem;
+      color: #f0aa4c;
+    }
+    .GB6{
+      font-size: 2rem;
+      color:#8cc63f;
+    }
+    .GB7{
+      font-size: 2rem;
+      color: #63bdde;
+    }
+    .GB8{
+      font-size: 2rem;
+      color: #f0aa4c;
+    }
+    .price{
+      color: #E43E5A;
+      font-weight: 900;
+      font-size: 2.5rem;
+    }
+  }
+  
+  .area1-side{
+    margin-left: 50px;
+  }
+  .area1-wrapper{
+    display: flex;
+    justify-content: center;
+  }
+  .shop-in{
+    position: relative;
+    background-color: white;
+    margin-bottom: 30px;
+    .shop-image{
+      width: 25vw;
+      padding: 10px 10px;
+    }
+  }
+  .customer{
+    position: relative;
+    background-color: white;
+    .customer1{
+      width: 25vw;
+      padding: 10px 10px;
+      // clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    }
+  }
+  .fukidashi1{
+    height: 15vh;
+    width: 15vw;
+    position: absolute;
+  }
+
+
+  .balloon1 {
+    position: relative;
+    display: inline-block;
+    margin-top:5rem ;
+    // margin: 0 auto;
+    padding: 7px 10px;
+    width: 100%;
+    max-width: 1300px;
+    color: #555;
+    font-size: 2.5rem;
+    background: yellow;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    &::before{
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -15px;
+      border: 15px solid transparent;
+      border-top: 15px solid yellow;  
+    }
+    p{
+      margin: 0;
+      padding: 0;
+    }
+  }  
+
+
+  .follow-me {
+    list-style: none;
+    margin: 0 0 -8px;
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .follow-me li {
+    // float: left;
+    margin: 0 8px 8px 0;
+    padding: 0;
+  }
+  .follow-me li a::before {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 50px;
+    height: 50px; /* Button height */
+    line-height: 44px; /* Button height */
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    text-align: center;
+    width: 70px; /* Button width */
+    padding-top: 5px;
+  }
+  .follow-me li a:hover::before {
+    opacity: 0.7;
+  }
+  
+  .follow-me li a[href*="dropbox.com"]::before        { background-color: #007ee5; content: "\f16b"; }
+  .follow-me li a[href*="facebook.com"]::before       { background-color: #3b5998; content: "\f09a"; }
+  .follow-me li a[href*="line"]::before               { background-color: #00c300; content: "\f3c0"; }
+  .follow-me li a[href*="twitter.com"]::before        { background-color: #55acee; content: "\f099"; }
+  .follow-me li a[href*="youtube.com"]::before        { background-color: #cd201f; content: "\f16a"; }
+  .follow-me li a[href*="tiktok"]::before              { background-color: #ffa500; content: "\e07b"; }
+  .follow-me li a[href*="tel"]::before              { background-color: #e73508; content: "\f098"; }
+  
+  .tel-btn{
+    position: relative;
+    display: block;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background: #e73508;
+    padding: 15px 0;
+    margin: auto;
+    width: 30vw;
+    font-size: 30px;
+    border: 1px white solid;
+
+    &::before{
+      content: "";
+      background-size: contain;
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      top: 10px;
+      left: 15px;
+    }
+  }
+  .line-btn{
+    position: relative;
+    display: block;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    background: #00c300;
+    padding: 15px 0;
+    margin: auto;
+    width: 30vw;
+    font-size: 30px;
+    border: 1px white solid;
+    span{
+      font-weight: bold;
+    }
+    &::before{
+      content: "";
+      background-size: contain;
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      top: 10px;
+      left: 15px;
+    }
+  }
+
+}
