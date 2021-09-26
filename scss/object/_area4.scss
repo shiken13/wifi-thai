@@ -9,7 +9,6 @@
       max-width: 1300px;
     }
   }
-
   .heading3 {
     max-width: 760px;
     margin: 0 auto;
@@ -17,11 +16,12 @@
     position: relative;
     padding-top: 20px;
     padding-left: 20px;
-    font-size: 40px;
+    font-size: 32px;
     border-radius: 30px;
     background-color: rgb(236, 10, 10);
     border: 1px solid rgba(255, 255, 255, 0.4);
     @include overTab {
+      font-size: 40px;
       padding-top: 30px;
       padding-left: 20px;
       max-width: 1300px;
@@ -38,7 +38,7 @@
     content: attr(data-en);
     position: absolute;
     top: -30px;
-    left: 70px;
+    left: 60px;
     color: rgba(255, 255, 255, 0.521);
     font-size: 50px;
     text-transform: uppercase;
@@ -50,10 +50,9 @@
       left: 60px;
     }
   }
-
   h3 {
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     border-left: solid 8px orange; /*左側の線*/
     background: whitesmoke; /*背景色*/
     margin-bottom: 5px; /*下のバーとの余白*/
@@ -62,9 +61,11 @@
     line-height: 1.5;
     border-radius: 0 15px 15px 0; /*右側の角だけ丸く*/
     padding: 0.5em;
-    width: 50%;
+    width: 80%;
     list-style-type: none !important;
     @include overTab {
+      font-size: 25px;
+      width: 50%;
       margin-left: 30px;
       margin-top: 25px;
     }
@@ -73,12 +74,20 @@
     position: relative;
     margin: 2em 0;
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 10px;
+    margin-bottom: 350px;
     padding: 0.5em 1em;
     border: solid 3px #ea551c;
     border-radius: 30px;
-    width: 50%;
+    width: 80%;
+    max-width: 760px;
     background-color: rgba(255, 255, 255, 0.548);
+    @include overTab {
+      margin-left: 30px;
+      margin-bottom: 100px;
+      width: 50%;
+      max-width: 1300px;
+    }
     .area4-textarea-title {
       position: absolute;
       display: inline-block;
@@ -87,11 +96,20 @@
       padding: 0 9px;
       height: 40px;
       line-height: 45px;
-      font-size: 40px;
+      font-size: 30px;
       background: #ea551c;
       color: #ffffff;
       font-weight: bold;
       border-radius: 5px 5px 0 0;
+      @include overTab {
+        font-size: 40px;
+      }
+    }
+    .text-display{
+      display: none;
+      @include overTab {
+        display: block;
+      }
     }
     p {
       font-size: 22px;
@@ -103,22 +121,33 @@
   .mokumoku3 {
     position: absolute;
     z-index: 2;
-    top: 10%;
-    left: 40%;
+    top: 15%;
+    left: 60%;
     transform: translate(-50%, -50%);
     transform: rotate(15deg);
-    width: 350px;
-    height: 120px;
+    width: 150px;
+    height: 70px;
+    @include overTab {
+      top: 10%;
+      left: 40%;
+      width: 350px;
+      height: 120px;
+    }
   }
   .recommend3 {
     position: absolute;
     z-index: 2;
-    font-size: 25px;
+    font-size: 11px;
     font-weight: bold;
-    top: 20%;
-    left: 42%;
+    top: 22%;
+    left: 62%;
     transform: translate(-50%, -50%);
     transform: rotate(18deg);
+    @include overTab {
+      top: 20%;
+      left: 42%;
+      font-size: 25px;
+    }
     &::before {
       font-family: "Font Awesome 5 Free";
       content: "\f521";
@@ -128,29 +157,42 @@
     }
   }
   .area3-image1 {
-    width: 300px;
+    width: 280px;
     position: absolute;
-    top: 60%;
-    left: 80%;
+    top: 130%;
+    left: 50%;
     transform: translate(-50%, -50%);
     z-index: 4;
+    @include overTab {
+      width: 300px;
+      top: 60%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+    }
   }
   .circle3 {
     position: absolute;
-    top: 70%;
-    left: 80%;
+    top: 140%;
+    left: 50%;
     transform: translate(-50%, -50%);
     background: white;
     border-radius: 50%;
     box-shadow: 0.375em 0.375em 0 0 rgb(247, 247, 125);
-    height: 15em;
-    width: 24em;
+    height: 12em;
+    width: 22em;
+    @include overTab {
+      height: 15em;
+      width: 24em;
+      top: 70%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+    }
   }
   .sim-text3 {
     position: absolute;
     width: 150px;
-    top: 80%;
-    left: 80%;
+    top: 150%;
+    left: 50%;
     transform: translate(-50%, -50%);
     z-index: 5;
     background-color: rgb(228, 8, 8);
@@ -160,6 +202,10 @@
     letter-spacing: 0.1em;
     color: #fff;
     text-shadow: -3px 2px 0 #000;
+    @include overTab {
+      top: 80%;
+      left: 80%;   
+    }
   }
 
   .area4-lower {
@@ -173,7 +219,7 @@
     .frame {
       display: inline-block;
       position: relative;
-      left: 35%;
+      left: 50%;
       width: 300px;
       transform: translate(-50%, 0%);
       @include overTab {
@@ -194,7 +240,7 @@
       @include overTab {
         letter-spacing: 0.1em;
         width: 800px;
-        left: 65%;
+        left: 70%;
         font-size: 3.8rem;
       }
     }
@@ -226,13 +272,18 @@
       display: inline-block;
       font-family: FontAwesome;
       font-size: 50px;
-      height: 50px; /* Button height */
-      line-height: 44px; /* Button height */
+      height: 40px; /* Button height */
+      line-height: 30px; /* Button height */
       -webkit-transition: all 0.3s ease;
       transition: all 0.3s ease;
       text-align: center;
-      width: 70px; /* Button width */
+      width: 50px; /* Button width */
       padding-top: 5px;
+      @include overTab {
+        width: 70px; /* Button width */
+        height: 50px; /* Button height */
+        line-height: 44px; /* Button height */
+      }
     }
     .follow-me li a:hover::before {
       opacity: 0.7;
@@ -269,7 +320,7 @@
       padding: 15px 0;
       margin: auto;
       width: 100%;
-      font-size: 28px;
+      font-size: 20px;
       border: 1px white solid;
       @include overTab {
         font-size: 33px;
@@ -296,7 +347,7 @@
       margin: auto;
       margin-bottom: 20px;
       width: 100%;
-      font-size: 33px;
+      font-size: 25px;
       border: 1px white solid;
       @include overTab {
         padding: 15px 0;
@@ -309,17 +360,20 @@
       &::before {
         content: "";
         background-size: contain;
-        width: 24px;
-        height: 24px;
+        width: 20px;
+        height: 20px;
         position: absolute;
         top: 10px;
         left: 15px;
+        @include overTab {
+          width: 24px;
+          height: 24px;
+        }
       }
     }
   }
   .container-area {
     display: flex;
-    // justify-content:space-between;
   }
 
   * {
@@ -500,11 +554,10 @@
   }
 
   .footer-area {
-    position: relative;
-    bottom: 15px;
-    left: 77%;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     @include overTab {
+      position: relative;
+      bottom: 15px;
       left: 35%;
       padding-bottom: 50px;
     }
@@ -512,8 +565,10 @@
   .footer-logo {
     width: 25%;
     mix-blend-mode: multiply;
+    padding-top: 100px;
     @include overTab {
       width: 10%;
+      padding-top: 0px;
     }
   }
 }

@@ -2,25 +2,34 @@
   margin-top: 100px;
   list-style: inherit;
   .area3-upper, .area3-lower{
-    max-width: 1300px;
+    max-width: 760px;
     margin: 0 auto;
     position: relative;
+    @include overTab {
+      max-width: 1300px;
+    }
   }
   .area3-lower{
     margin-top: 40px;
   }
 
   .heading2 {
-    max-width: 1300px;
+    max-width: 760px;
     margin: 0 auto;
     margin-bottom: 10px;
     position: relative;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 20px;
-    font-size: 40px;
+    font-size: 32px;
     border-radius: 30px;
     background-color: rgb(236, 10, 10);
     border: 1px solid rgba(255, 255, 255, 0.4);
+    @include overTab {
+      font-size: 40px;
+      padding-top: 30px;
+      padding-left: 20px;
+      max-width: 1300px;
+    }
   }
   .heading2 span {
     position: relative;
@@ -32,39 +41,57 @@
   .heading2::before {
     content: attr(data-en);
     position: absolute;
-    top: -40px;
+    top: -30px;
     left: 60px;
     color: rgba(255, 255, 255, 0.521);
-    font-size: 70px;
+    font-size: 50px;
     text-transform: uppercase;
     z-index: 1;
-	  font-style: italic;
+    font-style: italic;
+    @include overTab {
+      font-size: 70px;
+      top: -40px;
+      left: 60px;
+    }
   }
-
   h3 {
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     border-left: solid 8px orange;/*左側の線*/
     background: whitesmoke;/*背景色*/
     margin-bottom: 5px;/*下のバーとの余白*/
-    margin-top: 25px;
-    margin-left: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
     line-height: 1.5;
     border-radius: 0 15px 15px 0;/*右側の角だけ丸く*/
     padding: 0.5em;
-    width: 50%;
+    width: 85%;
     list-style-type: none!important;
+    @include overTab {
+      font-size: 25px;
+      width: 50%;
+      margin-left: 30px;
+      margin-top: 25px;
+    }
   }
   .area3-textarea{
     position: relative;
     margin: 2em 0;
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 10px;
+    margin-bottom: 300px;
     padding: 0.5em 1em;
     border: solid 3px #ea551c;
     border-radius: 30px;
-    width: 50%;
+    width: 80%;
+    max-width: 760px;
     background-color: rgba(255, 255, 255, 0.548);
+    @include overTab {
+      margin-left: 30px;
+      margin-bottom: 40px;
+      width: 50%;
+      max-width: 1300px;
+    }
     .area3-textarea-title{
       position: absolute;
       display: inline-block;
@@ -73,11 +100,20 @@
       padding: 0 9px;
       height: 40px;
       line-height: 45px;
-      font-size: 40px;
+      font-size: 30px;
       background: #ea551c;
       color: #ffffff;
       font-weight: bold;
       border-radius: 5px 5px 0 0;
+      @include overTab {
+        font-size: 40px;
+      }
+    }
+    .text-display{
+      display: none;
+      @include overTab {
+        display: block;
+      }
     }
     p{
       font-size: 22px;
@@ -88,32 +124,49 @@
   .mokumoku1{
     position: absolute;
     z-index: 2;
-    top: 10%;
-    left: 40%;
+    top: 35%;
+    left: 60%;
     transform: translate(-50%, -50%);
-    transform:rotate(15deg);
-    width: 300px;
-    height: 120px;
+    transform: rotate(15deg);
+    width: 150px;
+    height: 70px;
+    @include overTab {
+      top: 10%;
+      left: 40%;
+      width: 350px;
+      height: 120px;
+    }
   }
   .mokumoku2{
     position: absolute;
     z-index: 2;
-    top: -20%;
-    left: 40%;
+    top: -15%;
+    left: 60%;
     transform: translate(-50%, -50%);
-    transform:rotate(15deg);
-    width: 300px;
-    height: 120px;
+    transform: rotate(15deg);
+    width: 150px;
+    height: 70px;
+    @include overTab {
+      top: -20%;
+      left: 40%;
+      width: 350px;
+      height: 120px;
+    }
   }
   .recommend1{
     position: absolute;
     z-index: 2;
-    font-size: 25px;
+    font-size: 13px;
     font-weight: bold;
-    top: 20%;
-    left: 42%;
+    top: 41%;
+    left: 62%;
     transform: translate(-50%, -50%);
     transform:rotate(18deg);
+    @include overTab {
+      top: 18%;
+      left: 42%;
+      font-size: 30px;
+    }
     &::before{
       font-family: "Font Awesome 5 Free";
       content:'\f521';
@@ -123,40 +176,62 @@
     }
   }
   .area3-image1{
-    width: 300px;
+    width: 280px;
     position: absolute;
-    top: 60%;
-    left: 80%;
+    top: 130%;
+    left: 50%;
     transform: translate(-50%, -50%);
     z-index: 4;
+    @include overTab {
+      width: 300px;
+      top: 60%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+    }
   }
   .area3-image2{
-    width: 300px;
+    width: 280px;
     position: absolute;
-    top: 40%;
-    left: 80%;
+    top: 140%;
+    left: 50%;
     transform: translate(-50%, -50%);
     z-index: 4;
+    @include overTab {
+      width: 300px;
+      top: 40%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+    }
   }
   .circle1, .circle2 {
     position: absolute;
-    top: 70%;
-    left:80%;
+    top: 140%;
+    left:50%;
     transform: translate(-50%, -50%);
     background: white;
     border-radius: 50%;
     box-shadow: 0.375em 0.375em 0 0 rgb(247, 247, 125);
-    height: 15em;
-    width: 24em;
+    height: 12em;
+    width: 22em;
+    @include overTab {
+      height: 15em;
+      width: 24em;
+      top: 70%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+    }
   }
   .circle2{
+    top: 150%;
+    @include overTab {
     top: 55%;
+    }
   }
   .sim-text1, .sim-text2{
     position: absolute;
     width: 150px;
-    top: 80%;
-    left:80%;
+    top: 150%;
+    left:50%;
     transform: translate(-50%, -50%);
     z-index: 5;
     background-color:rgb(228, 8, 8) ;
@@ -166,19 +241,31 @@
     letter-spacing: .1em; 
     color: #fff; 
     text-shadow: -3px 2px 0 #000; 
+    @include overTab {
+      top: 80%;
+      left: 80%;   
+    }
   }
   .sim-text2{
+    top: 160%;
+    @include overTab {
     top: 70%;
+    }
   }
   .recommend2{
     position: absolute;
     z-index: 2;
-    font-size: 25px;
+    font-size: 14px;
     font-weight: bold;
-    top: -5%;
-    left: 43%;
+    top: -7%;
+    left: 64%;
     transform: translate(-50%, -50%);
     transform:rotate(18deg);
+    @include overTab {
+      top: -10%;
+      left: 44%;
+      font-size: 30px;
+    }
     &::before{
       font-family: "Font Awesome 5 Free";
       content:'\f521';

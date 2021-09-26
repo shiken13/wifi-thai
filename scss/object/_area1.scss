@@ -322,13 +322,18 @@
     display: inline-block;
     font-family: FontAwesome;
     font-size: 50px;
-    height: 50px; /* Button height */
-    line-height: 44px; /* Button height */
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
+    height: 40px; /* Button height */
+    line-height: 30px; /* Button height */
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
     text-align: center;
-    width: 70px; /* Button width */
+    width: 50px; /* Button width */
     padding-top: 5px;
+    @include overTab {
+       width: 70px; /* Button width */
+       height: 50px; /* Button height */
+       line-height: 44px; /* Button height */
+    }
   }
   .follow-me li a:hover::before {
     opacity: 0.7;
@@ -353,7 +358,7 @@
     padding: 15px 0;
     margin: auto;
     width: 100%;
-    font-size: 28px;
+    font-size: 20px;
     border: 1px white solid;
     @include overTab {
       font-size: 33px;
@@ -380,7 +385,7 @@
     margin: auto;
     margin-bottom: 20px;
     width: 100%;
-    font-size: 33px;
+    font-size: 25px;
     border: 1px white solid;
     @include overTab {
       padding: 15px 0;
@@ -400,7 +405,4 @@
       left: 15px;
     }
   }
-
-  
-
 }

@@ -730,16 +730,27 @@ footer .follow-me li a[href*="tiktok"]::before {
   display: inline-block;
   font-family: FontAwesome;
   font-size: 50px;
-  height: 50px;
+  height: 40px;
   /* Button height */
-  line-height: 44px;
+  line-height: 30px;
   /* Button height */
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   text-align: center;
-  width: 70px;
+  width: 50px;
   /* Button width */
   padding-top: 5px;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area1 .follow-me li a::before {
+    width: 70px;
+    /* Button width */
+    height: 50px;
+    /* Button height */
+    line-height: 44px;
+    /* Button height */
+  }
 }
 
 #area1 .follow-me li a:hover::before {
@@ -792,7 +803,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   padding: 15px 0;
   margin: auto;
   width: 100%;
-  font-size: 28px;
+  font-size: 20px;
   border: 1px white solid;
 }
 
@@ -824,7 +835,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   margin: auto;
   margin-bottom: 20px;
   width: 100%;
-  font-size: 33px;
+  font-size: 25px;
   border: 1px white solid;
 }
 
@@ -1106,9 +1117,15 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area3 .area3-upper, #area3 .area3-lower {
-  max-width: 1300px;
+  max-width: 760px;
   margin: 0 auto;
   position: relative;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 .area3-upper, #area3 .area3-lower {
+    max-width: 1300px;
+  }
 }
 
 #area3 .area3-lower {
@@ -1116,16 +1133,25 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area3 .heading2 {
-  max-width: 1300px;
+  max-width: 760px;
   margin: 0 auto;
   margin-bottom: 10px;
   position: relative;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 20px;
-  font-size: 40px;
+  font-size: 32px;
   border-radius: 30px;
   background-color: #ec0a0a;
   border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 .heading2 {
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 20px;
+    max-width: 1300px;
+  }
 }
 
 #area3 .heading2 span {
@@ -1139,44 +1165,72 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area3 .heading2::before {
   content: attr(data-en);
   position: absolute;
-  top: -40px;
+  top: -30px;
   left: 60px;
   color: rgba(255, 255, 255, 0.521);
-  font-size: 70px;
+  font-size: 50px;
   text-transform: uppercase;
   z-index: 1;
   font-style: italic;
 }
 
+@media print, screen and (min-width: 768px) {
+  #area3 .heading2::before {
+    font-size: 70px;
+    top: -40px;
+    left: 60px;
+  }
+}
+
 #area3 h3 {
   color: black;
-  font-size: 25px;
+  font-size: 20px;
   border-left: solid 8px orange;
   /*左側の線*/
   background: whitesmoke;
   /*背景色*/
   margin-bottom: 5px;
   /*下のバーとの余白*/
-  margin-top: 25px;
-  margin-left: 30px;
+  margin-top: 5px;
+  margin-left: 10px;
   line-height: 1.5;
   border-radius: 0 15px 15px 0;
   /*右側の角だけ丸く*/
   padding: 0.5em;
-  width: 50%;
+  width: 85%;
   list-style-type: none !important;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 h3 {
+    font-size: 25px;
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 25px;
+  }
 }
 
 #area3 .area3-textarea {
   position: relative;
   margin: 2em 0;
   margin-top: 50px;
-  margin-left: 30px;
+  margin-left: 10px;
+  margin-bottom: 300px;
   padding: 0.5em 1em;
   border: solid 3px #ea551c;
   border-radius: 30px;
-  width: 50%;
+  width: 80%;
+  max-width: 760px;
   background-color: rgba(255, 255, 255, 0.548);
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 .area3-textarea {
+    margin-left: 30px;
+    margin-bottom: 40px;
+    width: 50%;
+    max-width: 1300px;
+  }
 }
 
 #area3 .area3-textarea .area3-textarea-title {
@@ -1187,11 +1241,27 @@ footer .follow-me li a[href*="tiktok"]::before {
   padding: 0 9px;
   height: 40px;
   line-height: 45px;
-  font-size: 40px;
+  font-size: 30px;
   background: #ea551c;
   color: #ffffff;
   font-weight: bold;
   border-radius: 5px 5px 0 0;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 .area3-textarea .area3-textarea-title {
+    font-size: 40px;
+  }
+}
+
+#area3 .area3-textarea .text-display {
+  display: none;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 .area3-textarea .text-display {
+    display: block;
+  }
 }
 
 #area3 .area3-textarea p {
@@ -1203,40 +1273,66 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area3 .mokumoku1 {
   position: absolute;
   z-index: 2;
-  top: 10%;
-  left: 40%;
+  top: 35%;
+  left: 60%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-transform: rotate(15deg);
           transform: rotate(15deg);
-  width: 300px;
-  height: 120px;
+  width: 150px;
+  height: 70px;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 .mokumoku1 {
+    top: 10%;
+    left: 40%;
+    width: 350px;
+    height: 120px;
+  }
 }
 
 #area3 .mokumoku2 {
   position: absolute;
   z-index: 2;
-  top: -20%;
-  left: 40%;
+  top: -15%;
+  left: 60%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-transform: rotate(15deg);
           transform: rotate(15deg);
-  width: 300px;
-  height: 120px;
+  width: 150px;
+  height: 70px;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 .mokumoku2 {
+    top: -20%;
+    left: 40%;
+    width: 350px;
+    height: 120px;
+  }
 }
 
 #area3 .recommend1 {
   position: absolute;
   z-index: 2;
-  font-size: 25px;
+  font-size: 13px;
   font-weight: bold;
-  top: 20%;
-  left: 42%;
+  top: 41%;
+  left: 62%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-transform: rotate(18deg);
           transform: rotate(18deg);
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 .recommend1 {
+    top: 18%;
+    left: 42%;
+    font-size: 30px;
+  }
 }
 
 #area3 .recommend1::before {
@@ -1248,48 +1344,85 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area3 .area3-image1 {
-  width: 300px;
+  width: 280px;
   position: absolute;
-  top: 60%;
-  left: 80%;
+  top: 130%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 4;
 }
 
+@media print, screen and (min-width: 768px) {
+  #area3 .area3-image1 {
+    width: 300px;
+    top: 60%;
+    left: 80%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
 #area3 .area3-image2 {
-  width: 300px;
+  width: 280px;
   position: absolute;
-  top: 40%;
-  left: 80%;
+  top: 140%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 4;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 .area3-image2 {
+    width: 300px;
+    top: 40%;
+    left: 80%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
 }
 
 #area3 .circle1, #area3 .circle2 {
   position: absolute;
-  top: 70%;
-  left: 80%;
+  top: 140%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   background: white;
   border-radius: 50%;
   -webkit-box-shadow: 0.375em 0.375em 0 0 #f7f77d;
           box-shadow: 0.375em 0.375em 0 0 #f7f77d;
-  height: 15em;
-  width: 24em;
+  height: 12em;
+  width: 22em;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 .circle1, #area3 .circle2 {
+    height: 15em;
+    width: 24em;
+    top: 70%;
+    left: 80%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
 }
 
 #area3 .circle2 {
-  top: 55%;
+  top: 150%;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 .circle2 {
+    top: 55%;
+  }
 }
 
 #area3 .sim-text1, #area3 .sim-text2 {
   position: absolute;
   width: 150px;
-  top: 80%;
-  left: 80%;
+  top: 150%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 5;
@@ -1302,21 +1435,42 @@ footer .follow-me li a[href*="tiktok"]::before {
   text-shadow: -3px 2px 0 #000;
 }
 
+@media print, screen and (min-width: 768px) {
+  #area3 .sim-text1, #area3 .sim-text2 {
+    top: 80%;
+    left: 80%;
+  }
+}
+
 #area3 .sim-text2 {
-  top: 70%;
+  top: 160%;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 .sim-text2 {
+    top: 70%;
+  }
 }
 
 #area3 .recommend2 {
   position: absolute;
   z-index: 2;
-  font-size: 25px;
+  font-size: 14px;
   font-weight: bold;
-  top: -5%;
-  left: 43%;
+  top: -7%;
+  left: 64%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-transform: rotate(18deg);
           transform: rotate(18deg);
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 .recommend2 {
+    top: -10%;
+    left: 44%;
+    font-size: 30px;
+  }
 }
 
 #area3 .recommend2::before {
@@ -1363,7 +1517,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   position: relative;
   padding-top: 20px;
   padding-left: 20px;
-  font-size: 40px;
+  font-size: 32px;
   border-radius: 30px;
   background-color: #ec0a0a;
   border: 1px solid rgba(255, 255, 255, 0.4);
@@ -1371,6 +1525,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 
 @media print, screen and (min-width: 768px) {
   #area4 .heading3 {
+    font-size: 40px;
     padding-top: 30px;
     padding-left: 20px;
     max-width: 1300px;
@@ -1389,7 +1544,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   content: attr(data-en);
   position: absolute;
   top: -30px;
-  left: 70px;
+  left: 60px;
   color: rgba(255, 255, 255, 0.521);
   font-size: 50px;
   text-transform: uppercase;
@@ -1407,7 +1562,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 
 #area4 h3 {
   color: black;
-  font-size: 25px;
+  font-size: 20px;
   border-left: solid 8px orange;
   /*左側の線*/
   background: whitesmoke;
@@ -1420,12 +1575,14 @@ footer .follow-me li a[href*="tiktok"]::before {
   border-radius: 0 15px 15px 0;
   /*右側の角だけ丸く*/
   padding: 0.5em;
-  width: 50%;
+  width: 80%;
   list-style-type: none !important;
 }
 
 @media print, screen and (min-width: 768px) {
   #area4 h3 {
+    font-size: 25px;
+    width: 50%;
     margin-left: 30px;
     margin-top: 25px;
   }
@@ -1435,12 +1592,23 @@ footer .follow-me li a[href*="tiktok"]::before {
   position: relative;
   margin: 2em 0;
   margin-top: 50px;
-  margin-left: 30px;
+  margin-left: 10px;
+  margin-bottom: 350px;
   padding: 0.5em 1em;
   border: solid 3px #ea551c;
   border-radius: 30px;
-  width: 50%;
+  width: 80%;
+  max-width: 760px;
   background-color: rgba(255, 255, 255, 0.548);
+}
+
+@media print, screen and (min-width: 768px) {
+  #area4 .area4-textarea {
+    margin-left: 30px;
+    margin-bottom: 100px;
+    width: 50%;
+    max-width: 1300px;
+  }
 }
 
 #area4 .area4-textarea .area4-textarea-title {
@@ -1451,11 +1619,27 @@ footer .follow-me li a[href*="tiktok"]::before {
   padding: 0 9px;
   height: 40px;
   line-height: 45px;
-  font-size: 40px;
+  font-size: 30px;
   background: #ea551c;
   color: #ffffff;
   font-weight: bold;
   border-radius: 5px 5px 0 0;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area4 .area4-textarea .area4-textarea-title {
+    font-size: 40px;
+  }
+}
+
+#area4 .area4-textarea .text-display {
+  display: none;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area4 .area4-textarea .text-display {
+    display: block;
+  }
 }
 
 #area4 .area4-textarea p {
@@ -1467,27 +1651,44 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area4 .mokumoku3 {
   position: absolute;
   z-index: 2;
-  top: 10%;
-  left: 40%;
+  top: 15%;
+  left: 60%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-transform: rotate(15deg);
           transform: rotate(15deg);
-  width: 350px;
-  height: 120px;
+  width: 150px;
+  height: 70px;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area4 .mokumoku3 {
+    top: 10%;
+    left: 40%;
+    width: 350px;
+    height: 120px;
+  }
 }
 
 #area4 .recommend3 {
   position: absolute;
   z-index: 2;
-  font-size: 25px;
+  font-size: 11px;
   font-weight: bold;
-  top: 20%;
-  left: 42%;
+  top: 22%;
+  left: 62%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-transform: rotate(18deg);
           transform: rotate(18deg);
+}
+
+@media print, screen and (min-width: 768px) {
+  #area4 .recommend3 {
+    top: 20%;
+    left: 42%;
+    font-size: 25px;
+  }
 }
 
 #area4 .recommend3::before {
@@ -1499,34 +1700,55 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area4 .area3-image1 {
-  width: 300px;
+  width: 280px;
   position: absolute;
-  top: 60%;
-  left: 80%;
+  top: 130%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 4;
 }
 
+@media print, screen and (min-width: 768px) {
+  #area4 .area3-image1 {
+    width: 300px;
+    top: 60%;
+    left: 80%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
 #area4 .circle3 {
   position: absolute;
-  top: 70%;
-  left: 80%;
+  top: 140%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   background: white;
   border-radius: 50%;
   -webkit-box-shadow: 0.375em 0.375em 0 0 #f7f77d;
           box-shadow: 0.375em 0.375em 0 0 #f7f77d;
-  height: 15em;
-  width: 24em;
+  height: 12em;
+  width: 22em;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area4 .circle3 {
+    height: 15em;
+    width: 24em;
+    top: 70%;
+    left: 80%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
 }
 
 #area4 .sim-text3 {
   position: absolute;
   width: 150px;
-  top: 80%;
-  left: 80%;
+  top: 150%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 5;
@@ -1537,6 +1759,13 @@ footer .follow-me li a[href*="tiktok"]::before {
   letter-spacing: 0.1em;
   color: #fff;
   text-shadow: -3px 2px 0 #000;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area4 .sim-text3 {
+    top: 80%;
+    left: 80%;
+  }
 }
 
 #area4 .area4-lower {
@@ -1556,7 +1785,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area4 .area4-lower .frame {
   display: inline-block;
   position: relative;
-  left: 35%;
+  left: 50%;
   width: 300px;
   -webkit-transform: translate(-50%, 0%);
           transform: translate(-50%, 0%);
@@ -1586,7 +1815,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   #area4 .area4-lower h2 {
     letter-spacing: 0.1em;
     width: 800px;
-    left: 65%;
+    left: 70%;
     font-size: 3.8rem;
   }
 }
@@ -1613,16 +1842,27 @@ footer .follow-me li a[href*="tiktok"]::before {
   display: inline-block;
   font-family: FontAwesome;
   font-size: 50px;
-  height: 50px;
+  height: 40px;
   /* Button height */
-  line-height: 44px;
+  line-height: 30px;
   /* Button height */
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   text-align: center;
-  width: 70px;
+  width: 50px;
   /* Button width */
   padding-top: 5px;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area4 .area4-lower .follow-me li a::before {
+    width: 70px;
+    /* Button width */
+    height: 50px;
+    /* Button height */
+    line-height: 44px;
+    /* Button height */
+  }
 }
 
 #area4 .area4-lower .follow-me li a:hover::before {
@@ -1665,7 +1905,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   padding: 15px 0;
   margin: auto;
   width: 100%;
-  font-size: 28px;
+  font-size: 20px;
   border: 1px white solid;
 }
 
@@ -1697,7 +1937,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   margin: auto;
   margin-bottom: 20px;
   width: 100%;
-  font-size: 33px;
+  font-size: 25px;
   border: 1px white solid;
 }
 
@@ -1716,11 +1956,18 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area4 .area4-lower .line-btn::before {
   content: "";
   background-size: contain;
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   position: absolute;
   top: 10px;
   left: 15px;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area4 .area4-lower .line-btn::before {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 #area4 .container-area {
@@ -1940,14 +2187,13 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area4 .footer-area {
-  position: relative;
-  bottom: 15px;
-  left: 77%;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 @media print, screen and (min-width: 768px) {
   #area4 .footer-area {
+    position: relative;
+    bottom: 15px;
     left: 35%;
     padding-bottom: 50px;
   }
@@ -1956,11 +2202,13 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area4 .footer-logo {
   width: 25%;
   mix-blend-mode: multiply;
+  padding-top: 100px;
 }
 
 @media print, screen and (min-width: 768px) {
   #area4 .footer-logo {
     width: 10%;
+    padding-top: 0px;
   }
 }
 /*# sourceMappingURL=style.css.map */
