@@ -1,8 +1,11 @@
 #area1{
   margin-top: 50px;
   .area1-wrapper{
+    max-width: 760px;
+    @include overTab {
     max-width: 1300px;
     margin: 0 auto;
+    }
   }
   .introduce-content{
     display: flex;
@@ -349,10 +352,13 @@
     background: #e73508;
     padding: 15px 0;
     margin: auto;
-    width: 40vw;
-    font-size: 33px;
+    width: 100%;
+    font-size: 28px;
     border: 1px white solid;
-
+    @include overTab {
+      font-size: 33px;
+      width: 40vw;
+    }
     &::before{
       content: "";
       background-size: contain;
@@ -370,12 +376,17 @@
     color: white;
     text-align: center;
     background: #00c300;
-    padding: 15px 0;
+    padding: 10px 0;
     margin: auto;
     margin-bottom: 20px;
-    width: 40vw;
+    width: 100%;
     font-size: 33px;
     border: 1px white solid;
+    @include overTab {
+      padding: 15px 0;
+      font-size: 33px;
+      width: 40vw;
+    }
     span{
       font-weight: bold;
     }

@@ -2,22 +2,30 @@
   margin-top: 100px;
   list-style: inherit;
   .area4-upper {
-    max-width: 1300px;
+    max-width: 760px;
     margin: 0 auto;
     position: relative;
+    @include overTab {
+      max-width: 1300px;
+    }
   }
 
   .heading3 {
-    max-width: 1300px;
+    max-width: 760px;
     margin: 0 auto;
     margin-bottom: 10px;
     position: relative;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 20px;
     font-size: 40px;
     border-radius: 30px;
     background-color: rgb(236, 10, 10);
     border: 1px solid rgba(255, 255, 255, 0.4);
+    @include overTab {
+      padding-top: 30px;
+      padding-left: 20px;
+      max-width: 1300px;
+    }
   }
   .heading3 span {
     position: relative;
@@ -29,13 +37,18 @@
   .heading3::before {
     content: attr(data-en);
     position: absolute;
-    top: -40px;
-    left: 60px;
+    top: -30px;
+    left: 70px;
     color: rgba(255, 255, 255, 0.521);
-    font-size: 70px;
+    font-size: 50px;
     text-transform: uppercase;
     z-index: 1;
     font-style: italic;
+    @include overTab {
+      font-size: 70px;
+      top: -40px;
+      left: 60px;
+    }
   }
 
   h3 {
@@ -44,13 +57,17 @@
     border-left: solid 8px orange; /*左側の線*/
     background: whitesmoke; /*背景色*/
     margin-bottom: 5px; /*下のバーとの余白*/
-    margin-left: 30px;
-    margin-top: 25px;
+    margin-left: 10px;
+    margin-top: 5px;
     line-height: 1.5;
     border-radius: 0 15px 15px 0; /*右側の角だけ丸く*/
     padding: 0.5em;
     width: 50%;
     list-style-type: none !important;
+    @include overTab {
+      margin-left: 30px;
+      margin-top: 25px;
+    }
   }
   .area4-textarea {
     position: relative;
@@ -148,25 +165,38 @@
   .area4-lower {
     margin-top: 100px;
     position: relative;
+    max-width: 760px;
+    margin: 0 auto;
+    @include overTab {
+      max-width: 1300px;
+    }
     .frame {
       display: inline-block;
       position: relative;
-      left: 30%;
-      width: 600px;
+      left: 35%;
+      width: 300px;
       transform: translate(-50%, 0%);
-      max-width: 1300px;
+      @include overTab {
+        left: 30%;
+        width: 600px;
+      }
     }
     h2 {
       position: absolute;
       width: 800px;
       top: 30%;
-      left: 65%;
+      left: 110%;
       transform: translate(-50%, -50%);
-      font-size: 3.8rem;
+      font-size: 2.2rem;
       font-style: italic;
-      letter-spacing: 0.1em;
       color: #fff;
       text-shadow: -3px 2px 0 #000;
+      @include overTab {
+        letter-spacing: 0.1em;
+        width: 800px;
+        left: 65%;
+        font-size: 3.8rem;
+      }
     }
     .line {
       // background-image: linear-gradient(
@@ -207,11 +237,6 @@
     .follow-me li a:hover::before {
       opacity: 0.7;
     }
-
-    .follow-me li a[href*="dropbox.com"]::before {
-      background-color: #007ee5;
-      content: "\f16b";
-    }
     .follow-me li a[href*="facebook.com"]::before {
       background-color: #3b5998;
       content: "\f09a";
@@ -219,10 +244,6 @@
     .follow-me li a[href*="line"]::before {
       background-color: #00c300;
       content: "\f3c0";
-    }
-    .follow-me li a[href*="twitter.com"]::before {
-      background-color: #55acee;
-      content: "\f099";
     }
     .follow-me li a[href*="youtube.com"]::before {
       background-color: #cd201f;
@@ -247,10 +268,13 @@
       background: #e73508;
       padding: 15px 0;
       margin: auto;
-      width: 40vw;
-      font-size: 33px;
+      width: 100%;
+      font-size: 28px;
       border: 1px white solid;
-
+      @include overTab {
+        font-size: 33px;
+        width: 40vw;
+      }
       &::before {
         content: "";
         background-size: contain;
@@ -268,12 +292,17 @@
       color: white;
       text-align: center;
       background: #00c300;
-      padding: 15px 0;
+      padding: 10px 0;
       margin: auto;
       margin-bottom: 20px;
-      width: 40vw;
+      width: 100%;
       font-size: 33px;
       border: 1px white solid;
+      @include overTab {
+        padding: 15px 0;
+        font-size: 33px;
+        width: 40vw;
+      }
       span {
         font-weight: bold;
       }
@@ -339,16 +368,22 @@
     background-color: #444;
     border: white solid 2px;
     border-radius: 20px;
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     overflow: hidden;
     position: relative;
     margin: 0;
     margin-right: 10px;
     transition: all 0.5s ease-in-out 0.1s;
+    @include overTab {
+      width: 90px;
+      height: 90px;
+    }
   }
   .tab:hover {
+    @include overTab {
     width: 450px;
+    }
   }
   .tab:hover .social a:before {
     margin-left: -100px;
@@ -379,17 +414,27 @@
     height: 100px;
     position: absolute;
     text-indent: 0;
-    padding-top: 18px;
-    padding-left: 20px;
+    padding-top: 10px;
+    padding-left: 15px;
     display: block;
-    font: normal 50px Genericons;
+    font: normal 42px Genericons;
     color: #fff;
+    @include overTab {
+      font: normal 50px Genericons;
+      padding-top: 18px;
+      padding-left: 20px;
+    }
   }
   .social a:after {
-    font-size: 60px;
-    padding-left: 20px;
-    padding-top: 12px;
+    font-size: 50px;
+    padding-left: 9px;
+    padding-top: 9px;
     margin-left: 85px;
+    @include overTab {
+      font-size: 60px;
+      padding-left: 20px;
+      padding-top: 12px;
+    }
   }
   /* Add Icons */
   /* Social media links: youtube  */
@@ -454,53 +499,21 @@
     content: "\e07b";
   }
 
-  /* responsive settings */
-  @media (max-width: 950px) {
-    .container {
-      width: 70%;
-    }
-    .tab {
-      display: block;
-      width: 100%;
-      border-bottom: 3px #333 solid;
-    }
-    .acordion {
-      display: block;
-      min-width: 450px;
-      height: auto;
-    }
-    .tab .content {
-      width: 85%;
-    }
-    .tab:hover {
-      width: 100%;
-    }
-  }
-  @media (max-width: 680px) {
-    .container {
-      width: 95%;
-    }
-    .acordion {
-      width: 100%;
-      min-width: 350px;
-    }
-  }
-
   .footer-area {
     position: relative;
     bottom: 15px;
-    left: 35%;
-    padding-bottom: 50px;
-    // transform: translate(-50%, -50%);
+    left: 77%;
+    padding-bottom: 20px;
+    @include overTab {
+      left: 35%;
+      padding-bottom: 50px;
+    }
   }
   .footer-logo {
-    width: 10%;
+    width: 25%;
     mix-blend-mode: multiply;
-  }
-  .footer-text {
-    display: inline-block;
-    width: 500px;
-    font-size: 50px;
-    color: yellow;
+    @include overTab {
+      width: 10%;
+    }
   }
 }
