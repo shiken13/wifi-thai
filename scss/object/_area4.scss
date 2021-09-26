@@ -1,7 +1,7 @@
-#area4{
+#area4 {
   margin-top: 100px;
   list-style: inherit;
-  .area4-upper{
+  .area4-upper {
     max-width: 1300px;
     margin: 0 auto;
     position: relative;
@@ -35,38 +35,38 @@
     font-size: 70px;
     text-transform: uppercase;
     z-index: 1;
-	  font-style: italic;
+    font-style: italic;
   }
 
   h3 {
     color: black;
     font-size: 25px;
-    border-left: solid 8px orange;/*左側の線*/
-    background: whitesmoke;/*背景色*/
-    margin-bottom: 5px;/*下のバーとの余白*/
+    border-left: solid 8px orange; /*左側の線*/
+    background: whitesmoke; /*背景色*/
+    margin-bottom: 5px; /*下のバーとの余白*/
     margin-left: 30px;
     margin-top: 25px;
     line-height: 1.5;
-    border-radius: 0 15px 15px 0;/*右側の角だけ丸く*/
+    border-radius: 0 15px 15px 0; /*右側の角だけ丸く*/
     padding: 0.5em;
-    width: 70%;
-    list-style-type: none!important;
+    width: 50%;
+    list-style-type: none !important;
   }
-  .area4-textarea{
+  .area4-textarea {
     position: relative;
     margin: 2em 0;
     margin-top: 50px;
     margin-left: 30px;
     padding: 0.5em 1em;
     border: solid 3px #ea551c;
-    // width: auto;
-    width: 70%;
+    border-radius: 30px;
+    width: 50%;
     background-color: rgba(255, 255, 255, 0.548);
-    .area4-textarea-title{
+    .area4-textarea-title {
       position: absolute;
       display: inline-block;
       top: -40px;
-      left: -3px;
+      left: 10px;
       padding: 0 9px;
       height: 40px;
       line-height: 45px;
@@ -76,69 +76,104 @@
       font-weight: bold;
       border-radius: 5px 5px 0 0;
     }
-    p{
+    p {
       font-size: 22px;
-      margin: 0; 
+      margin: 0;
       padding: 0;
     }
   }
 
-  .mokumoku3{
+  .mokumoku3 {
     position: absolute;
     z-index: 2;
     top: 10%;
-    left: 60%;
+    left: 40%;
     transform: translate(-50%, -50%);
-    transform:rotate(15deg);
+    transform: rotate(15deg);
     width: 350px;
     height: 120px;
   }
-  .recommend3{
+  .recommend3 {
     position: absolute;
     z-index: 2;
     font-size: 25px;
     font-weight: bold;
     top: 20%;
-    left: 62%;
+    left: 42%;
     transform: translate(-50%, -50%);
-    transform:rotate(18deg);
-    &::before{
+    transform: rotate(18deg);
+    &::before {
       font-family: "Font Awesome 5 Free";
-      content:'\f521';
-      padding:5px;
-      font-weight:900;
-      color:#FFDC00;
+      content: "\f521";
+      padding: 5px;
+      font-weight: 900;
+      color: #ffdc00;
     }
   }
-  .area3-image1{
-    width: 200px;
+  .area3-image1 {
+    width: 300px;
     position: absolute;
-    top: 40%;
+    top: 60%;
     left: 80%;
     transform: translate(-50%, -50%);
-    transform:rotate(18deg);
+    z-index: 4;
   }
- 
+  .circle3 {
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgb(247, 247, 125);
+    height: 15em;
+    width: 24em;
+  }
+  .sim-text3 {
+    position: absolute;
+    width: 150px;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    background-color: rgb(228, 8, 8);
+    text-align: center;
+    font-size: 2.4rem;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    color: #fff;
+    text-shadow: -3px 2px 0 #000;
+  }
 
-  .area4-lower{
+  .area4-lower {
+    margin-top: 100px;
+    position: relative;
     .frame {
       display: inline-block;
       position: relative;
-      left: 50%;
+      left: 30%;
+      width: 600px;
       transform: translate(-50%, 0%);
       max-width: 1300px;
     }
-    .frame:after {
+    h2 {
       position: absolute;
-      display: block;
-      content: "";
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(left, rgba(255, 255, 255, 0) 40%, #fff 100%); /* 塗りつぶす */
+      width: 800px;
+      top: 30%;
+      left: 65%;
+      transform: translate(-50%, -50%);
+      font-size: 3.8rem;
+      font-style: italic;
+      letter-spacing: 0.1em;
+      color: #fff;
+      text-shadow: -3px 2px 0 #000;
     }
-
+    .line {
+      // background-image: linear-gradient(
+      //   rgba(0, 0, 0, 0) 70%,
+      //   rgba(252, 221, 81, 0.952) 70%
+      // );
+    }
 
     /* LINE TEL */
     .follow-me {
@@ -146,7 +181,6 @@
       margin: 0 0 -8px;
       overflow: hidden;
       padding: 0;
-      display: flex;
       justify-content: center;
       margin-top: 50px;
     }
@@ -164,8 +198,8 @@
       font-size: 50px;
       height: 50px; /* Button height */
       line-height: 44px; /* Button height */
-      -webkit-transition: all .3s ease;
-      transition: all .3s ease;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease;
       text-align: center;
       width: 70px; /* Button width */
       padding-top: 5px;
@@ -173,16 +207,37 @@
     .follow-me li a:hover::before {
       opacity: 0.7;
     }
-    
-    .follow-me li a[href*="dropbox.com"]::before        { background-color: #007ee5; content: "\f16b"; }
-    .follow-me li a[href*="facebook.com"]::before       { background-color: #3b5998; content: "\f09a"; }
-    .follow-me li a[href*="line"]::before               { background-color: #00c300; content: "\f3c0"; }
-    .follow-me li a[href*="twitter.com"]::before        { background-color: #55acee; content: "\f099"; }
-    .follow-me li a[href*="youtube.com"]::before        { background-color: #cd201f; content: "\f16a"; }
-    .follow-me li a[href*="tiktok"]::before              { background-color: #ffa500; content: "\e07b"; }
-    .follow-me li a[href*="tel"]::before              { background-color: #e73508; content: "\f098"; }
-    
-    .tel-btn{
+
+    .follow-me li a[href*="dropbox.com"]::before {
+      background-color: #007ee5;
+      content: "\f16b";
+    }
+    .follow-me li a[href*="facebook.com"]::before {
+      background-color: #3b5998;
+      content: "\f09a";
+    }
+    .follow-me li a[href*="line"]::before {
+      background-color: #00c300;
+      content: "\f3c0";
+    }
+    .follow-me li a[href*="twitter.com"]::before {
+      background-color: #55acee;
+      content: "\f099";
+    }
+    .follow-me li a[href*="youtube.com"]::before {
+      background-color: #cd201f;
+      content: "\f16a";
+    }
+    .follow-me li a[href*="tiktok"]::before {
+      background-color: #ffa500;
+      content: "\e07b";
+    }
+    .follow-me li a[href*="tel"]::before {
+      background-color: #e73508;
+      content: "\f098";
+    }
+
+    .tel-btn {
       position: relative;
       display: block;
       border-radius: 50px;
@@ -192,11 +247,11 @@
       background: #e73508;
       padding: 15px 0;
       margin: auto;
-      width: 30vw;
-      font-size: 30px;
+      width: 40vw;
+      font-size: 33px;
       border: 1px white solid;
-  
-      &::before{
+
+      &::before {
         content: "";
         background-size: contain;
         width: 24px;
@@ -206,7 +261,7 @@
         left: 15px;
       }
     }
-    .line-btn{
+    .line-btn {
       position: relative;
       display: block;
       border-radius: 50px;
@@ -215,13 +270,14 @@
       background: #00c300;
       padding: 15px 0;
       margin: auto;
-      width: 30vw;
-      font-size: 30px;
+      margin-bottom: 20px;
+      width: 40vw;
+      font-size: 33px;
       border: 1px white solid;
-      span{
+      span {
         font-weight: bold;
       }
-      &::before{
+      &::before {
         content: "";
         background-size: contain;
         width: 24px;
@@ -231,70 +287,8 @@
         left: 15px;
       }
     }
-
   }
-
-
-  /*FAQ よくあるご質問*/ 
-  
-    // @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
-    .faq{
-      padding-top: 40px;
-      padding-bottom: 80px;
-      margin-top: 50px;
-      span{
-        font-size: 50px;
-      }
-      .faq-cont{
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 30px;
-      }
-      .faq-list{
-        max-width: 900px;
-        margin: 0 auto;
-      }
-      .faq-item{
-        .js-accordion{
-          background-color: rgb(145, 6, 6);
-          color: white;
-          font-weight: bold;
-        }
-         a{
-          display: block;
-          text-align: left;
-          border-bottom: 1px solid rgba(0, 0, 0, 0.226);
-          padding:14px;
-          font-size: 14px;
-          font-weight: bold;
-          color: black;
-          @include overTab{
-            font-size: 24px;
-            padding:20px 0;
-            text-align: center;
-          }
-        }
-        .detail{
-          background-color: white;
-          padding: 14px;
-          font-size: 18px;
-          border-bottom: #e5e5e5;
-          color: black;
-          font-weight: bold;
-          display: none;
-          @include overTab{
-            padding:25px 50px;
-            font-size: 20px;
-          }
-          
-        }
-      }
-      
-    }
-    /*終了*/ 
-  
-
-  .container-area{
+  .container-area {
     display: flex;
     // justify-content:space-between;
   }
@@ -309,19 +303,24 @@
     font-family: arial, helvetica, sans-serif;
   }
   @font-face {
-    font-family: 'Genericons';
-    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.woff') format('woff'),
-      url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.eot') format('truetype');
+    font-family: "Genericons";
+    src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.woff")
+        format("woff"),
+      url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.eot")
+        format("truetype");
   }
-  
-  .container{
-    margin: 50px auto;
+
+  .container {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
     width: 90%;
     max-width: 1300px;
   }
   header h1 {
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
+    font-weight: bold;
     text-align: left;
   }
   .accordion {
@@ -331,19 +330,21 @@
     display: block;
     list-style-type: none;
     overflow: hidden;
-    height: 200px;
+    height: 100px;
     font-size: 0;
     z-index: 100;
   }
   .tab {
     display: inline-block;
     background-color: #444;
-    border-right: white solid 1px;
-    width: 80px;
-    height: 200px;
+    border: white solid 2px;
+    border-radius: 20px;
+    width: 90px;
+    height: 90px;
     overflow: hidden;
-    position: relative; 
+    position: relative;
     margin: 0;
+    margin-right: 10px;
     transition: all 0.5s ease-in-out 0.1s;
   }
   .tab:hover {
@@ -353,41 +354,41 @@
     margin-left: -100px;
   }
   .tab:hover .social a:after {
-    margin-left: -5px;
+    margin-left: 0px;
   }
   .tab .content {
-    background-color: #fff;;
-    width:  360px;
-    height: 200px;
-    margin-left: 80px;
+    background-color: #fff;
+    width: 360px;
+    height: 100px;
+    margin-left: 100px;
     position: relative;
-    padding: 50px 0 0 15px;
+    padding: 0 0 0 15px;
   }
   .tab .content h1 {
     font-size: 2.5rem;
   }
   .tab .content p {
     font-size: 0.85rem;
-    line-height: 1.4rem;
+    line-height: 1.9rem;
     padding-right: 30px;
   }
   .social a:before,
   .social a:after {
     transition: all 0.4s ease-in-out 0.1s;
-    width: 80px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     text-indent: 0;
-    padding-top: 90px;
-    padding-left: 25px ;
+    padding-top: 18px;
+    padding-left: 20px;
     display: block;
-    font: normal 30px Genericons;
+    font: normal 50px Genericons;
     color: #fff;
   }
-  .social a:after{
-    font-size: 48px;
+  .social a:after {
+    font-size: 60px;
     padding-left: 20px;
-    padding-top: 80px;
+    padding-top: 12px;
     margin-left: 85px;
   }
   /* Add Icons */
@@ -395,56 +396,72 @@
   .youtube a::before {
     font-family: FontAwesome;
   }
-  .youtube a[href*="youtube.com"]::before       
-  { background-color: #cd201f; content: "\f16a"; }
+  .youtube a[href*="youtube.com"]::before {
+    background-color: #cd201f;
+    content: "\f16a";
+  }
   .youtube a::after {
     font-family: FontAwesome;
   }
-  .youtube a[href*="youtube.com"]::after       
-  { background-color: #cd201f; content: "\f16a"; }
-  
+  .youtube a[href*="youtube.com"]::after {
+    background-color: #cd201f;
+    content: "\f16a";
+  }
+
   /* Social media links: LINE  */
   .line a::before {
     font-family: FontAwesome;
   }
-  .line a[href*="line"]::before       
-  {background-color: #00c300; content: "\f3c0";}
+  .line a[href*="line"]::before {
+    background-color: #00c300;
+    content: "\f3c0";
+  }
   .line a::after {
     font-family: FontAwesome;
   }
-  .line a[href*="line"]::after       
-  { background-color: #00c300; content: "\f3c0";}
+  .line a[href*="line"]::after {
+    background-color: #00c300;
+    content: "\f3c0";
+  }
   /* Social media links: facebook  */
   .facebook a::before {
     font-family: FontAwesome;
   }
-  .facebook a[href*="facebook.com"]::before       
-  { background-color: #3b5998; content: "\f09a"; }
+  .facebook a[href*="facebook.com"]::before {
+    background-color: #3b5998;
+    content: "\f09a";
+  }
   .facebook a::after {
     font-family: FontAwesome;
   }
-  .facebook a[href*="facebook.com"]::after       
-  { background-color: #3b5998; content: "\f09a"; }
+  .facebook a[href*="facebook.com"]::after {
+    background-color: #3b5998;
+    content: "\f09a";
+  }
   /* Social media links: tiktok  */
   .tiktok a::before {
     font-family: FontAwesome;
   }
-  .tiktok a[href*="tiktok.com"]::before       
-  {background-color: #ffa500; content: "\e07b"; }
+  .tiktok a[href*="tiktok.com"]::before {
+    background-color: #ffa500;
+    content: "\e07b";
+  }
   .tiktok a::after {
     font-family: FontAwesome;
   }
-  .tiktok a[href*="tiktok.com"]::after       
-  { background-color: #ffa500; content: "\e07b";}
+  .tiktok a[href*="tiktok.com"]::after {
+    background-color: #ffa500;
+    content: "\e07b";
+  }
 
   /* responsive settings */
-  @media(max-width: 950px) {
+  @media (max-width: 950px) {
     .container {
       width: 70%;
     }
     .tab {
-      display:block;
-      width:100%;
+      display: block;
+      width: 100%;
       border-bottom: 3px #333 solid;
     }
     .acordion {
@@ -452,7 +469,7 @@
       min-width: 450px;
       height: auto;
     }
-    .tab .content{
+    .tab .content {
       width: 85%;
     }
     .tab:hover {
@@ -465,21 +482,22 @@
     }
     .acordion {
       width: 100%;
-      min-width: 350px;   
+      min-width: 350px;
     }
   }
 
-  .footer-area{
+  .footer-area {
     position: relative;
-    top: -10%;
-    left: 30%;
+    bottom: 15px;
+    left: 35%;
+    padding-bottom: 50px;
     // transform: translate(-50%, -50%);
   }
-  .footer-logo{
-    width: 15%;
+  .footer-logo {
+    width: 10%;
     mix-blend-mode: multiply;
   }
-  .footer-text{
+  .footer-text {
     display: inline-block;
     width: 500px;
     font-size: 50px;

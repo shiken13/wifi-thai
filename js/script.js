@@ -46,12 +46,35 @@ $(function() {
 
 });
 
-//アコーディオン機能
+
+
 $(function(){
-  $('.js-accordion').on('click', function(){
-    $(this).toggleClass('-active');
-    $(this).next().slideToggle();
+
+  // 自動スライド
+  $('#slick-srider').slick({
+    autoplay: true,
+    autoplaySpeed: 3000,
+    dots: true,
+    // dotsClass: 'slick-dots2',
+    arrows: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          // slidesToShow: 5,
+          // slidesToScroll: 1,
+          // infinite: true,
+          // centerPadding:'0',
+          centerMode:false,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          centerPadding:'0px',
+          centerMode:true,
+        }
+      }
+    ]
   });
 });
-
-

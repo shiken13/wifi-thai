@@ -52,7 +52,7 @@
     line-height: 1.5;
     border-radius: 0 15px 15px 0;/*右側の角だけ丸く*/
     padding: 0.5em;
-    width: 70%;
+    width: 50%;
     list-style-type: none!important;
   }
   .area3-textarea{
@@ -62,14 +62,14 @@
     margin-left: 30px;
     padding: 0.5em 1em;
     border: solid 3px #ea551c;
-    // width: auto;
-    width: 70%;
+    border-radius: 30px;
+    width: 50%;
     background-color: rgba(255, 255, 255, 0.548);
     .area3-textarea-title{
       position: absolute;
       display: inline-block;
       top: -40px;
-      left: -3px;
+      left: 10px;
       padding: 0 9px;
       height: 40px;
       line-height: 45px;
@@ -85,12 +85,11 @@
       padding: 0;
     }
   }
-
   .mokumoku1{
     position: absolute;
     z-index: 2;
     top: 10%;
-    left: 60%;
+    left: 40%;
     transform: translate(-50%, -50%);
     transform:rotate(15deg);
     width: 300px;
@@ -100,7 +99,7 @@
     position: absolute;
     z-index: 2;
     top: -20%;
-    left: 60%;
+    left: 40%;
     transform: translate(-50%, -50%);
     transform:rotate(15deg);
     width: 300px;
@@ -112,7 +111,7 @@
     font-size: 25px;
     font-weight: bold;
     top: 20%;
-    left: 62%;
+    left: 42%;
     transform: translate(-50%, -50%);
     transform:rotate(18deg);
     &::before{
@@ -124,20 +123,52 @@
     }
   }
   .area3-image1{
-    width: 200px;
+    width: 300px;
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+  }
+  .area3-image2{
+    width: 300px;
     position: absolute;
     top: 40%;
     left: 80%;
     transform: translate(-50%, -50%);
-    transform:rotate(18deg);
+    z-index: 4;
   }
-  .area3-image2{
-    width: 200px;
+  .circle1, .circle2 {
     position: absolute;
-    top: 20%;
-    left: 80%;
+    top: 70%;
+    left:80%;
     transform: translate(-50%, -50%);
-    transform:rotate(18deg);
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgb(247, 247, 125);
+    height: 15em;
+    width: 24em;
+  }
+  .circle2{
+    top: 55%;
+  }
+  .sim-text1, .sim-text2{
+    position: absolute;
+    width: 150px;
+    top: 80%;
+    left:80%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    background-color:rgb(228, 8, 8) ;
+    text-align: center;
+    font-size: 2.4rem; 
+    font-style: italic; 
+    letter-spacing: .1em; 
+    color: #fff; 
+    text-shadow: -3px 2px 0 #000; 
+  }
+  .sim-text2{
+    top: 70%;
   }
   .recommend2{
     position: absolute;
@@ -145,7 +176,7 @@
     font-size: 25px;
     font-weight: bold;
     top: -5%;
-    left: 63%;
+    left: 43%;
     transform: translate(-50%, -50%);
     transform:rotate(18deg);
     &::before{
