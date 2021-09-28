@@ -49,9 +49,8 @@ $(function() {
 
 
 $(function(){
-
   // 自動スライド
-  $('#slick-srider').slick({
+  $('.slick-srider').slick({
     autoplay: true,
     autoplaySpeed: 3000,
     dots: true,

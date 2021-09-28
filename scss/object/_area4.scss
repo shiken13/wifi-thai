@@ -144,7 +144,7 @@
     transform: translate(-50%, -50%);
     transform: rotate(18deg);
     @include overTab {
-      top: 20%;
+      top: 18%;
       left: 42%;
       font-size: 25px;
     }
@@ -243,12 +243,6 @@
         left: 70%;
         font-size: 3.8rem;
       }
-    }
-    .line {
-      // background-image: linear-gradient(
-      //   rgba(0, 0, 0, 0) 70%,
-      //   rgba(252, 221, 81, 0.952) 70%
-      // );
     }
 
     /* LINE TEL */
@@ -473,6 +467,24 @@
     display: block;
     font: normal 42px Genericons;
     color: #fff;
+    @include overTab {
+      font: normal 50px Genericons;
+      padding-top: 18px;
+      padding-left: 20px;
+    }
+  }
+  .tiktok a:before,
+  .tiktok a::after {
+    transition: all 0.4s ease-in-out 0.1s;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    text-indent: 0;
+    padding-top: 10px;
+    padding-left: 15px;
+    display: block;
+    font: normal 42px Genericons;
+    color: black;
     @include overTab {
       font: normal 50px Genericons;
       padding-top: 18px;
