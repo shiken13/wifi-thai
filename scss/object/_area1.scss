@@ -1,34 +1,34 @@
-#area1{
+#area1 {
   margin-top: 50px;
-  .area1-wrapper{
+  .area1-wrapper {
     max-width: 760px;
     @include overTab {
-    max-width: 1300px;
-    margin: 0 auto;
+      max-width: 1300px;
+      margin: 0 auto;
     }
   }
-  .introduce-content{
+  .introduce-content {
     display: flex;
     // justify-content: space-between;
     margin-bottom: 20px;
     box-shadow: 2px 2px 4px gray;
     border-radius: 30px;
-    background-color:rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     margin-right: 5px;
     margin-left: 5px;
     @include overTab {
-      margin-right:inherit;
+      margin-right: inherit;
       margin-left: inherit;
       max-width: 1300px;
     }
-    .area1-list{
+    .area1-list {
       position: relative;
-      p{
+      p {
         position: absolute;
         z-index: 5;
-        color:red;
+        color: red;
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 1.5rem;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -39,39 +39,39 @@
     }
   }
 
-  h2 { 
-    position: relative; 
-    overflow: hidden; 
-    padding: 1.5rem 2rem 1.5rem 130px; 
-    border-top: 3px solid red; 
-  } 
-
-  h2:before { 
-    position: absolute; 
-    top: -150%; 
-    left: -100px; 
-    width: 210px; 
-    height: 300%; 
-    content: ''; 
-    -webkit-transform: rotate(25deg); 
-    transform: rotate(25deg); 
-    background: red;
-  } 
-  
-  h2 span { 
-    font-size: 4rem; 
-    position: absolute; 
-    z-index: 1; 
-    top: -10px; 
-    left: 0; 
-    display: block; 
-    padding-top: 0px; 
-    padding-left: 16px; 
-    color: white; 
+  h2 {
+    position: relative;
+    overflow: hidden;
+    padding: 1.5rem 2rem 1.5rem 130px;
+    border-top: 3px solid red;
   }
-  .area1-image1{
+
+  h2:before {
+    position: absolute;
+    top: -150%;
+    left: -100px;
+    width: 210px;
+    height: 300%;
+    content: "";
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg);
+    background: red;
+  }
+
+  h2 span {
+    font-size: 4rem;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    left: 0;
+    display: block;
+    padding-top: 0px;
+    padding-left: 16px;
+    color: white;
+  }
+  .area1-image1 {
     width: 15vw;
-    height: 10vh;
+    height: 11vh;
     display: flex;
     align-items: center;
     padding: 30px 0;
@@ -80,7 +80,7 @@
       height: 18vh;
     }
   }
-  .area1-image4{
+  .area1-image4 {
     width: 15vw;
     height: 10vh;
     display: flex;
@@ -91,29 +91,32 @@
       height: 18vh;
     }
   }
-  .area1-image2{
+  .area1-image2 {
     width: 120px;
     position: absolute;
     left: 65%;
-    transform:rotate(10deg);
+    transform: rotate(10deg);
     z-index: 4;
-    box-shadow: 1px 3px 20px 10px rgb(247, 247, 125), inset 10px 3px 20px 10px rgb(247, 247, 125);
+    box-shadow: 1px 3px 20px 10px rgb(247, 247, 125),
+      inset 10px 3px 20px 10px rgb(247, 247, 125);
     @include overTab {
-      width: 300px;     
+      width: 300px;
+      left: 45%;
     }
-
   }
-  .area1-image3{
+  .area1-image3 {
     width: 110px;
     position: absolute;
     left: 65%;
-    transform:rotate(10deg);
-    box-shadow: 1px 3px 20px 10px rgb(247, 247, 125), inset 10px 3px 20px 10px rgb(247, 247, 125);
+    transform: rotate(10deg);
+    box-shadow: 1px 3px 20px 10px rgb(247, 247, 125),
+      inset 10px 3px 20px 10px rgb(247, 247, 125);
     @include overTab {
+      left: 45%;
       width: 280px;
     }
   }
-  .intro-text{
+  .intro-text {
     font-family: "Roboto", sans-serif;
     line-height: 1.4;
     text-align: left;
@@ -124,72 +127,69 @@
     padding-top: 20px;
     @include overTab {
       width: 750px;
-    font-size: 1.5rem;
+      font-size: 1.5rem;
     }
-    .GB1{
+    .GB1 {
       font-size: 1.8rem;
-      color:#6cb907;
+      color: #6cb907;
       @include overTab {
-      font-size: 3rem;
+        font-size: 3rem;
       }
     }
-    .text-line{
-      background-image: linear-gradient(
-      rgba(0, 0, 0, 0) 40%,
-      yellow 70%
-      );
+    .text-line {
+      background-image: linear-gradient(rgba(0, 0, 0, 0) 40%, yellow 70%);
     }
-    .GB2{
+    .GB2 {
       font-size: 1.5rem;
-      color:#8cc63f;
+      color: #8cc63f;
       @include overTab {
         font-size: 2rem;
       }
     }
-    .GB3{
+    .GB3 {
       font-size: 1.5rem;
       color: #63bdde;
       @include overTab {
         font-size: 2rem;
       }
     }
-    .GB4{
+    .GB4 {
       font-size: 1.5rem;
       color: #f0aa4c;
       @include overTab {
         font-size: 2rem;
       }
     }
-    .GB5{
+    .GB5 {
       font-size: 1.5rem;
       color: #f0aa4c;
       @include overTab {
         font-size: 2rem;
       }
     }
-    .GB6{
+    .GB6 {
       font-size: 1.5rem;
-      color:#8cc63f;
+      color: #8cc63f;
       @include overTab {
         font-size: 2rem;
       }
     }
-    .GB7{
+    .GB7 {
       font-size: 1.5rem;
       color: #63bdde;
       @include overTab {
         font-size: 2rem;
       }
     }
-    .GB8{
+    .GB8 {
       font-size: 1.5rem;
       color: #f0aa4c;
       @include overTab {
         font-size: 2rem;
       }
     }
-    .price{
-      color: #E43E5A;
+    .price {
+      color: #e43e5a;
       font-weight: 900;
       font-size: 1.8rem;
       @include overTab {
@@ -197,33 +197,33 @@
       }
     }
   }
-  
-  .area1-side{
+
+  .area1-side {
     @include overTab {
-      margin-left: 50px;
+      margin-left: 30px;
     }
   }
-  .area1-wrapper{
-      @include overTab {
+  .area1-wrapper {
+    @include overTab {
       display: flex;
       justify-content: center;
     }
   }
-  .shop-wrapper{
+  .shop-wrapper {
     position: relative;
     margin-left: 5px;
     margin-right: 5px;
     @include overTab {
       margin-left: inherit;
-      margin-right:inherit;
+      margin-right: inherit;
     }
   }
-  .shop-in{
+  .shop-in {
     position: relative;
     margin-bottom: 60px;
     border-radius: 30px;
-    &::before{
-      content: '';
+    &::before {
+      content: "";
       position: absolute;
       width: 0;
       height: 0;
@@ -234,8 +234,8 @@
       border-width: 0 50px 50px 0;
       border-color: transparent rgb(194, 9, 9) transparent transparent;
     }
-    &::after{
-      content: '';
+    &::after {
+      content: "";
       position: absolute;
       width: 0;
       height: 0;
@@ -246,63 +246,62 @@
       border-width: 50px 0 0 50px;
       border-color: transparent transparent transparent rgb(194, 9, 9);
     }
-    .shop-image{
+    .shop-image {
       position: relative;
       width: 200px;
-      height: 32vh;
-      padding: 10px 10px;
+      height: 30vh;
+      padding: 10px 5px;
       border-radius: 30px;
       @include overTab {
         width: 30vw;
         height: 32vh;
       }
-      
     }
   }
-  .customer-wrapper{
+  .customer-wrapper {
     position: relative;
     margin-left: 5px;
     margin-right: 5px;
     @include overTab {
       margin-left: inherit;
-      margin-right:inherit;
+      margin-right: inherit;
     }
   }
-  .customer{
+  .customer {
     position: relative;
     border-radius: 30px;
-    margin:0 auto;
-    &::before{
-      content: '';
+    margin: 0 auto;
+    &::before {
+      content: "";
       position: absolute;
       width: 0;
       height: 0;
       border-style: solid;
       z-index: 10;
-      top: -10px;
-      right: 0px;
+      top: -5px;
+      right: -5px;
       border-width: 0 50px 50px 0;
       border-color: transparent rgb(194, 9, 9) transparent transparent;
     }
-    &::after{
-      content: '';
+    &::after {
+      content: "";
       position: absolute;
       width: 0;
       height: 0;
       border-style: solid;
       z-index: 10;
-      bottom: -10px;
-      left: 0px;
+      bottom: -5px;
+      left: -5px;
       border-width: 50px 0 0 50px;
       border-color: transparent transparent transparent rgb(194, 9, 9);
     }
-    .customer1{
+    .customer1 {
       width: 30vw;
       height: 35vh;
-      // padding: 10px 10px;
+      padding: 10px 5px;
     }
   }
-  .slick-list{
+  .slick-list {
     margin: 0 auto;
     width: auto;
     border-radius: 30px;
@@ -310,7 +309,7 @@
       width: 20vw;
     }
   }
-  .fukidashi1{
+  .fukidashi1 {
     width: 250px;
     height: 80px;
     top: -30px;
@@ -318,7 +317,7 @@
     position: absolute;
     z-index: 11;
   }
-  .shop-text{
+  .shop-text {
     top: -15px;
     left: 5px;
     position: absolute;
@@ -326,7 +325,7 @@
     font-weight: bold;
     z-index: 11;
   }
-  .fukidashi2{
+  .fukidashi2 {
     width: 250px;
     height: 80px;
     top: -50px;
@@ -337,7 +336,7 @@
       left: -30px;
     }
   }
-  .customer-text{
+  .customer-text {
     top: -35px;
     left: 25px;
     position: absolute;
@@ -351,8 +350,7 @@
   .balloon1 {
     position: relative;
     display: inline-block;
-    margin-top:5rem ;
-    // margin: 0 auto;
+    margin-top: 5rem;
     padding: 7px 10px;
     width: 100%;
     max-width: 760px;
@@ -370,16 +368,16 @@
       width: 100%;
       max-width: 1300px;
     }
-    &::before{
+    &::before {
       content: "";
       position: absolute;
       top: 100%;
       left: 50%;
       margin-left: -15px;
       border: 15px solid transparent;
-      border-top: 15px solid yellow;  
+      border-top: 15px solid yellow;
     }
-    p{
+    p {
       margin: 0;
       padding: 0;
       text-align: center;
@@ -388,16 +386,14 @@
       @include overTab {
         width: 550px;
       }
-      
     }
-    .text-line{
+    .text-line {
       background-image: linear-gradient(
-      rgba(0, 0, 0, 0) 70%,
-      rgba(238, 135, 117, 0.952) 70%
+        rgba(0, 0, 0, 0) 70%,
+        rgba(238, 135, 117, 0.952) 70%
       );
     }
-  }  
-
+  }
   .follow-me {
     list-style: none;
     margin: 0 0 -8px;
@@ -406,11 +402,10 @@
     padding: 0;
     justify-content: center;
     @include overTab {
-      margin-bottom: 200px;
+      margin-bottom: 100px;
     }
   }
   .follow-me li {
-    // float: left;
     margin: 0 8px 8px 0;
     padding: 0;
   }
@@ -429,23 +424,44 @@
     width: 50px; /* Button width */
     padding-top: 5px;
     @include overTab {
-       width: 70px; /* Button width */
-       height: 50px; /* Button height */
-       line-height: 44px; /* Button height */
+      width: 70px; /* Button width */
+      height: 50px; /* Button height */
+      line-height: 44px; /* Button height */
     }
   }
   .follow-me li a:hover::before {
     opacity: 0.7;
   }
-  .follow-me li a[href*="dropbox.com"]::before        { background-color: #007ee5; content: "\f16b"; }
-  .follow-me li a[href*="facebook.com"]::before       { background-color: #3b5998; content: "\f09a"; }
-  .follow-me li a[href*="line"]::before               { background-color: #00c300; content: "\f3c0"; }
-  .follow-me li a[href*="twitter.com"]::before        { background-color: #55acee; content: "\f099"; }
-  .follow-me li a[href*="youtube.com"]::before        { background-color: #cd201f; content: "\f16a"; }
-  .follow-me li a[href*="tiktok"]::before              { background-color: #ffa500; content: "\e07b"; }
-  .follow-me li a[href*="tel"]::before              { background-color: #e73508; content: "\f098"; }
-  
-  .tel-btn{
+  .follow-me li a[href*="dropbox.com"]::before {
+    background-color: #007ee5;
+    content: "\f16b";
+  }
+  .follow-me li a[href*="facebook.com"]::before {
+    background-color: #3b5998;
+    content: "\f09a";
+  }
+  .follow-me li a[href*="line"]::before {
+    background-color: #00c300;
+    content: "\f3c0";
+  }
+  .follow-me li a[href*="twitter.com"]::before {
+    background-color: #55acee;
+    content: "\f099";
+  }
+  .follow-me li a[href*="youtube.com"]::before {
+    background-color: #cd201f;
+    content: "\f16a";
+  }
+  .follow-me li a[href*="tiktok"]::before {
+    background-color: #ffa500;
+    content: "\e07b";
+  }
+  .follow-me li a[href*="tel"]::before {
+    background-color: #e73508;
+    content: "\f098";
+  }
+
+  .tel-btn {
     position: relative;
     display: block;
     border-radius: 50px;
@@ -462,7 +478,7 @@
       font-size: 33px;
       width: 40vw;
     }
-    &::before{
+    &::before {
       content: "";
       background-size: contain;
       width: 24px;
@@ -472,7 +488,7 @@
       left: 15px;
     }
   }
-  .line-btn{
+  .line-btn {
     position: relative;
     display: block;
     border-radius: 50px;
@@ -490,10 +506,10 @@
       font-size: 33px;
       width: 40vw;
     }
-    span{
+    span {
       font-weight: bold;
     }
-    &::before{
+    &::before {
       content: "";
       background-size: contain;
       width: 24px;
@@ -503,7 +519,7 @@
       left: 15px;
     }
   }
-  .profile-area{
+  .profile-area {
     margin: 0 auto;
     margin: 0 5px;
     width: auto;
@@ -514,7 +530,7 @@
       width: 1000px;
       max-width: 1300px;
     }
-    .profile-text{
+    .profile-text {
       background-color: #106197;
       box-shadow: 1px 1px 3px 1px;
       border-radius: 30px;
@@ -529,18 +545,18 @@
         padding-right: inherit;
       }
     }
-    .profile{
+    .profile {
       position: absolute;
       top: 10%;
       width: 130px;
       left: 80%;
       transform: translate(-50%, -50%);
+      filter: drop-shadow(10px 2px 0 #c3a400);
       @include overTab {
         top: -15%;
-        left: 70%;
+        left: 80%;
         width: 200px;
       }
     }
   }
-
 }
