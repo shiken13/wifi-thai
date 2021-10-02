@@ -117,10 +117,8 @@
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
   }
-
   .area2-upper{
     position: relative;
-    // display: flex;
     margin-bottom: 40px;
   }
   .area2-wifi1 {
@@ -140,6 +138,60 @@
         width: 400px;
         top: 35%;
         left:76%;
+      }
+    }
+    .kira1{
+      width: 120px;
+      position: absolute;
+      top: 166%;
+      left: 20%;
+      transform: translate(-50%, -50%);
+      z-index: 5;
+      @include overTab {
+        width: 300px;
+        top: 20%;
+        left: 70%;
+      }
+    }
+    .kira2{
+      width: 180px;
+      position: absolute;
+      top: 158%;
+      left: 55%;
+      transform: translate(-50%, -50%);
+      z-index: 5;
+      @include overTab {
+        width: 300px;
+        top: 5%;
+        left: 75%;
+      }
+    }
+    .kira3{
+      width: 140px;
+      position: absolute;
+      top: 170%;
+      left: 55%;
+      transform: translate(-50%, -50%);
+      transform: rotate(90deg);
+      z-index: 5;
+      @include overTab {
+        width: 200px;
+        top: 20%;
+        left: 85%;
+      }
+    }
+    .kira4{
+      width: 200px;
+      position: absolute;
+      top: 20%;
+      left: 82%;
+      transform: translate(-50%, -50%);
+      transform: rotate(90deg);
+      z-index: 5;
+      @include overTab {
+        width: 200px;
+        top: 20%;
+        left: 82%;
       }
     }
   }
@@ -166,6 +218,7 @@
     left: 62%;
     transform: translate(-50%, -50%);
     transform:rotate(18deg);
+    z-index: 6;
     @include overTab {
       font-size: 25px;
       top: 0%;

@@ -170,14 +170,40 @@
       transform: translate(-50%, -50%);
     }
   }
+  .kira1{
+    width: 220px;
+    position: absolute;
+    top: 120%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    @include overTab {
+      width: 320px;
+      top: 55%;
+      left: 85%;
+    }
+  }
+  .kira2{
+    width: 220px;
+    position: absolute;
+    top: 110%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    @include overTab {
+      width: 320px;
+      top: 40%;
+      left: 75%;
+    }
+  }
   .circle3 {
     position: absolute;
     top: 140%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: white;
+    background: rgba(210, 244, 247, 0.808);
     border-radius: 50%;
-    box-shadow: 0.375em 0.375em 0 0 rgb(247, 247, 125);
+    box-shadow: 0.375em 0.375em 0 0 rgb(210, 255, 174);
     height: 12em;
     width: 22em;
     @include overTab {
@@ -229,6 +255,19 @@
         left: 20%;
         width: 320px;
       }
+    }
+    .logo-delivery{
+      position:absolute;
+      width: 40px;
+      top: 22%;
+      left: 56%;
+      transform: translate(-50%, -50%);
+      @include overTab {
+        top: 33%;
+        left: 33%;
+        width: 70px;
+      }
+
     }
     .sagawa2{
       width: 180px;
@@ -411,7 +450,6 @@
   .container-area {
     display: flex;
   }
-
   * {
     margin: 0;
     padding: 0;
@@ -509,33 +547,39 @@
     height: 100px;
     position: absolute;
     text-indent: 0;
-    padding-top: 10px;
-    padding-left: 15px;
+    padding-top: 4px;
+    padding-left: 7px;
     display: block;
-    font: normal 42px Genericons;
+    font: normal 60px Genericons;
     color: #fff;
     @include overTab {
-      font: normal 50px Genericons;
-      padding-top: 18px;
-      padding-left: 20px;
+      font: normal 75px Genericons;
+      padding-top: 4px;
+      padding-left: 11px;
     }
   }
   .tiktok a:before,
   .tiktok a::after {
-    transition: all 0.4s ease-in-out 0.1s;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    text-indent: 0;
-    padding-top: 10px;
-    padding-left: 15px;
+    padding-top: 6px;
+    padding-left: 12px;
     display: block;
-    font: normal 42px Genericons;
-    color: black;
+    font: normal 55px Genericons;
+    color: white;
+    text-shadow: 4px 4px $redColor, -4px -4px $blueColor;
     @include overTab {
-      font: normal 50px Genericons;
-      padding-top: 18px;
-      padding-left: 20px;
+      font: normal 70px Genericons;
+      padding-top: 8px;
+      padding-left: 12px;
+    }
+  }
+  .youtube a:before,
+  .youtube a::after {
+    padding-top: 4px;
+    padding-left: 2px;
+    @include overTab {
+      font: normal 70px Genericons;
+      padding-top: 8px;
+      padding-left: 6px;
     }
   }
   .social a:after {
@@ -601,14 +645,14 @@
     font-family: FontAwesome;
   }
   .tiktok a[href*="tiktok.com"]::before {
-    background-color: #ffa500;
+    background-color: #000000;
     content: "\e07b";
   }
   .tiktok a::after {
     font-family: FontAwesome;
   }
   .tiktok a[href*="tiktok.com"]::after {
-    background-color: #ffa500;
+    background-color: #000000;
     content: "\e07b";
   }
 

@@ -14,9 +14,8 @@ $colors: (
     gold: #B8860BEA,
 	baige: #FFFFDD,
 );
-
-
-
+$redColor: rgba(244,67,54,1);
+$blueColor:rgba(33,150,243,1);
 @function cl($key) {
 	@return map-get($colors, $key);
 }

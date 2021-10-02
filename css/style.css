@@ -48,68 +48,144 @@ header {
   max-width: 1300px;
   margin: 0 auto;
   position: relative;
-  height: 50px;
+  height: 280px;
 }
 
 @media print, screen and (min-width: 768px) {
   header {
-    height: 230px;
+    height: 640px;
   }
 }
 
 header .logo1 {
-  width: 10%;
+  width: 15%;
   position: absolute;
-  top: 80%;
-  left: 34%;
+  top: 15%;
+  left: 15%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  -webkit-box-shadow: 1px 3px 15px 5px #f5f538, inset 1px 3px 15px 10px #f5f538;
+          box-shadow: 1px 3px 15px 5px #f5f538, inset 1px 3px 15px 10px #f5f538;
+  border-radius: 50%;
 }
 
 @media print, screen and (min-width: 768px) {
   header .logo1 {
-    top: 55%;
+    top: 20%;
   }
 }
 
 header .logo2 {
-  width: 30%;
+  width: 55%;
   position: absolute;
-  top: 80%;
-  left: 55%;
+  top: 15%;
+  left: 58%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
 
 @media print, screen and (min-width: 768px) {
   header .logo2 {
-    top: 55%;
+    left: 58%;
+    top: 20%;
   }
 }
 
 header ul {
+  position: relative;
+  top: 5%;
+  left: 12%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  padding-top: 70px;
+}
+
+@media print, screen and (min-width: 768px) {
+  header ul {
+    padding-top: 200px;
+  }
 }
 
 header .tai-flag {
-  width: 28%;
+  width: 24%;
+  height: 50px;
+}
+
+@media print, screen and (min-width: 768px) {
+  header .tai-flag {
+    height: 200px;
+  }
 }
 
 header .japan-flag {
-  width: 23%;
-  height: 75%;
+  width: 21%;
+  height: 40px;
   padding-top: 5px;
 }
 
 @media print, screen and (min-width: 768px) {
   header .japan-flag {
-    padding-top: 20px;
+    height: 180px;
+    padding-top: 10px;
+  }
+}
+
+header .profile-area {
+  margin: 0 auto;
+  margin: 0 5px;
+  margin-top: 30px;
+  width: auto;
+  max-width: 760px;
+  position: relative;
+}
+
+@media print, screen and (min-width: 768px) {
+  header .profile-area {
+    margin: 0 auto;
+    width: 1100px;
+    max-width: 1300px;
+    margin-top: 50px;
+  }
+}
+
+header .profile-area .profile-text {
+  background-color: #c40707;
+  -webkit-box-shadow: 1px 1px 3px 1px;
+          box-shadow: 1px 1px 3px 1px;
+  border-radius: 30px;
+  color: #fff;
+  padding: 20px 20px;
+  padding-right: 140px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media print, screen and (min-width: 768px) {
+  header .profile-area .profile-text {
+    font-size: 35px;
+    padding: 30px 40px;
+    padding-right: inherit;
+  }
+}
+
+header .profile-area .profile {
+  position: absolute;
+  top: 10%;
+  width: 120px;
+  left: 78%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-filter: drop-shadow(10px 2px 0 #c3a400);
+          filter: drop-shadow(10px 2px 0 #c3a400);
+}
+
+@media print, screen and (min-width: 768px) {
+  header .profile-area .profile {
+    top: -40%;
+    left: 80%;
+    width: 260px;
   }
 }
 
@@ -617,7 +693,8 @@ footer .follow-me li a[href*="tiktok"]::before {
 
 #area1 .intro-text .GB1 {
   font-size: 1.8rem;
-  color: #6cb907;
+  color: #fff;
+  text-shadow: 3px 3px 0 #000, -3px -3px 0 #000, -3px 3px 0 #000, 3px -3px 0 #000, 0px 3px 0 #000, 0 -3px 0 #000, -3px 0 0 #000, 3px 0 0 #000;
 }
 
 @media print, screen and (min-width: 768px) {
@@ -631,79 +708,14 @@ footer .follow-me li a[href*="tiktok"]::before {
   background-image: linear-gradient(rgba(0, 0, 0, 0) 40%, yellow 70%);
 }
 
-#area1 .intro-text .GB2 {
+#area1 .intro-text .GB {
   font-size: 1.5rem;
-  color: #8cc63f;
+  color: #fff;
+  text-shadow: 3px 3px 0 #000, -3px -3px 0 #000, -3px 3px 0 #000, 3px -3px 0 #000, 0px 3px 0 #000, 0 -3px 0 #000, -3px 0 0 #000, 3px 0 0 #000;
 }
 
 @media print, screen and (min-width: 768px) {
-  #area1 .intro-text .GB2 {
-    font-size: 2rem;
-  }
-}
-
-#area1 .intro-text .GB3 {
-  font-size: 1.5rem;
-  color: #63bdde;
-}
-
-@media print, screen and (min-width: 768px) {
-  #area1 .intro-text .GB3 {
-    font-size: 2rem;
-  }
-}
-
-#area1 .intro-text .GB4 {
-  font-size: 1.5rem;
-  color: #f0aa4c;
-}
-
-@media print, screen and (min-width: 768px) {
-  #area1 .intro-text .GB4 {
-    font-size: 2rem;
-  }
-}
-
-#area1 .intro-text .GB5 {
-  font-size: 1.5rem;
-  color: #f0aa4c;
-}
-
-@media print, screen and (min-width: 768px) {
-  #area1 .intro-text .GB5 {
-    font-size: 2rem;
-  }
-}
-
-#area1 .intro-text .GB6 {
-  font-size: 1.5rem;
-  color: #8cc63f;
-}
-
-@media print, screen and (min-width: 768px) {
-  #area1 .intro-text .GB6 {
-    font-size: 2rem;
-  }
-}
-
-#area1 .intro-text .GB7 {
-  font-size: 1.5rem;
-  color: #63bdde;
-}
-
-@media print, screen and (min-width: 768px) {
-  #area1 .intro-text .GB7 {
-    font-size: 2rem;
-  }
-}
-
-#area1 .intro-text .GB8 {
-  font-size: 1.5rem;
-  color: #f0aa4c;
-}
-
-@media print, screen and (min-width: 768px) {
-  #area1 .intro-text .GB8 {
+  #area1 .intro-text .GB {
     font-size: 2rem;
   }
 }
@@ -967,7 +979,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area1 .follow-me {
   list-style: none;
   margin: 0 0 -8px;
-  margin-bottom: 120px;
+  margin-bottom: 10px;
   overflow: hidden;
   padding: 0;
   -webkit-box-pack: center;
@@ -1163,7 +1175,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   position: absolute;
   top: 10%;
   width: 130px;
-  left: 80%;
+  left: 75%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-filter: drop-shadow(10px 2px 0 #c3a400);
@@ -1172,9 +1184,9 @@ footer .follow-me li a[href*="tiktok"]::before {
 
 @media print, screen and (min-width: 768px) {
   #area1 .profile-area .profile {
-    top: -15%;
-    left: 80%;
-    width: 200px;
+    top: -40%;
+    left: 85%;
+    width: 250px;
   }
 }
 
@@ -1346,6 +1358,82 @@ footer .follow-me li a[href*="tiktok"]::before {
   }
 }
 
+#area2 .area2-wifi1 .kira1 {
+  width: 120px;
+  position: absolute;
+  top: 166%;
+  left: 20%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area2 .area2-wifi1 .kira1 {
+    width: 300px;
+    top: 20%;
+    left: 70%;
+  }
+}
+
+#area2 .area2-wifi1 .kira2 {
+  width: 180px;
+  position: absolute;
+  top: 158%;
+  left: 55%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area2 .area2-wifi1 .kira2 {
+    width: 300px;
+    top: 5%;
+    left: 75%;
+  }
+}
+
+#area2 .area2-wifi1 .kira3 {
+  width: 140px;
+  position: absolute;
+  top: 170%;
+  left: 55%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  z-index: 5;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area2 .area2-wifi1 .kira3 {
+    width: 200px;
+    top: 20%;
+    left: 85%;
+  }
+}
+
+#area2 .area2-wifi1 .kira4 {
+  width: 200px;
+  position: absolute;
+  top: 20%;
+  left: 82%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  z-index: 5;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area2 .area2-wifi1 .kira4 {
+    width: 200px;
+    top: 20%;
+    left: 82%;
+  }
+}
+
 #area2 .mokumoku {
   position: absolute;
   top: -12%;
@@ -1377,6 +1465,7 @@ footer .follow-me li a[href*="tiktok"]::before {
           transform: translate(-50%, -50%);
   -webkit-transform: rotate(18deg);
           transform: rotate(18deg);
+  z-index: 6;
 }
 
 @media print, screen and (min-width: 768px) {
@@ -1843,16 +1932,128 @@ footer .follow-me li a[href*="tiktok"]::before {
   }
 }
 
+#area3 .kira1 {
+  width: 200px;
+  position: absolute;
+  top: 120%;
+  left: 40%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 .kira1 {
+    width: 300px;
+    top: 55%;
+    left: 80%;
+  }
+}
+
+#area3 .kira2 {
+  width: 200px;
+  position: absolute;
+  top: 100%;
+  left: 45%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 .kira2 {
+    width: 300px;
+    top: 40%;
+    left: 75%;
+  }
+}
+
+#area3 .kira3 {
+  width: 130px;
+  position: absolute;
+  top: 120%;
+  left: 75%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  z-index: 5;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 .kira3 {
+    width: 200px;
+    top: 50%;
+    left: 85%;
+  }
+}
+
+#area3 .kira4 {
+  width: 200px;
+  position: absolute;
+  top: 125%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 .kira4 {
+    width: 300px;
+    top: 30%;
+    left: 80%;
+  }
+}
+
+#area3 .kira5 {
+  width: 200px;
+  position: absolute;
+  top: 110%;
+  left: 45%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 .kira5 {
+    width: 300px;
+    top: 10%;
+    left: 85%;
+  }
+}
+
+#area3 .kira6 {
+  width: 130px;
+  position: absolute;
+  top: 120%;
+  left: 75%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  z-index: 5;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area3 .kira6 {
+    width: 200px;
+    top: 30%;
+    left: 85%;
+  }
+}
+
 #area3 .circle1, #area3 .circle2 {
   position: absolute;
   top: 140%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background: white;
+  background: rgba(229, 250, 252, 0.858);
   border-radius: 50%;
-  -webkit-box-shadow: 0.375em 0.375em 0 0 #f7f77d;
-          box-shadow: 0.375em 0.375em 0 0 #f7f77d;
+  -webkit-box-shadow: 0.375em 0.375em 0 0 #d2ffae;
+          box-shadow: 0.375em 0.375em 0 0 #d2ffae;
   height: 12em;
   width: 22em;
 }
@@ -2179,16 +2380,52 @@ footer .follow-me li a[href*="tiktok"]::before {
   }
 }
 
+#area4 .kira1 {
+  width: 220px;
+  position: absolute;
+  top: 120%;
+  left: 55%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area4 .kira1 {
+    width: 320px;
+    top: 55%;
+    left: 85%;
+  }
+}
+
+#area4 .kira2 {
+  width: 220px;
+  position: absolute;
+  top: 110%;
+  left: 35%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area4 .kira2 {
+    width: 320px;
+    top: 40%;
+    left: 75%;
+  }
+}
+
 #area4 .circle3 {
   position: absolute;
   top: 140%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background: white;
+  background: rgba(210, 244, 247, 0.808);
   border-radius: 50%;
-  -webkit-box-shadow: 0.375em 0.375em 0 0 #f7f77d;
-          box-shadow: 0.375em 0.375em 0 0 #f7f77d;
+  -webkit-box-shadow: 0.375em 0.375em 0 0 #d2ffae;
+          box-shadow: 0.375em 0.375em 0 0 #d2ffae;
   height: 12em;
   width: 22em;
 }
@@ -2260,6 +2497,23 @@ footer .follow-me li a[href*="tiktok"]::before {
   #area4 .area4-lower .sagawa1, #area4 .area4-lower .sagawa2 {
     left: 20%;
     width: 320px;
+  }
+}
+
+#area4 .area4-lower .logo-delivery {
+  position: absolute;
+  width: 40px;
+  top: 22%;
+  left: 56%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media print, screen and (min-width: 768px) {
+  #area4 .area4-lower .logo-delivery {
+    top: 33%;
+    left: 33%;
+    width: 70px;
   }
 }
 
@@ -2609,43 +2863,53 @@ footer .follow-me li a[href*="tiktok"]::before {
   height: 100px;
   position: absolute;
   text-indent: 0;
-  padding-top: 10px;
-  padding-left: 15px;
+  padding-top: 4px;
+  padding-left: 7px;
   display: block;
-  font: normal 42px Genericons;
+  font: normal 60px Genericons;
   color: #fff;
 }
 
 @media print, screen and (min-width: 768px) {
   #area4 .social a:before,
   #area4 .social a:after {
-    font: normal 50px Genericons;
-    padding-top: 18px;
-    padding-left: 20px;
+    font: normal 75px Genericons;
+    padding-top: 4px;
+    padding-left: 11px;
   }
 }
 
 #area4 .tiktok a:before,
 #area4 .tiktok a::after {
-  -webkit-transition: all 0.4s ease-in-out 0.1s;
-  transition: all 0.4s ease-in-out 0.1s;
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  text-indent: 0;
-  padding-top: 10px;
-  padding-left: 15px;
+  padding-top: 6px;
+  padding-left: 12px;
   display: block;
-  font: normal 42px Genericons;
-  color: black;
+  font: normal 55px Genericons;
+  color: white;
+  text-shadow: 4px 4px #f44336, -4px -4px #2196f3;
 }
 
 @media print, screen and (min-width: 768px) {
   #area4 .tiktok a:before,
   #area4 .tiktok a::after {
-    font: normal 50px Genericons;
-    padding-top: 18px;
-    padding-left: 20px;
+    font: normal 70px Genericons;
+    padding-top: 8px;
+    padding-left: 12px;
+  }
+}
+
+#area4 .youtube a:before,
+#area4 .youtube a::after {
+  padding-top: 4px;
+  padding-left: 2px;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area4 .youtube a:before,
+  #area4 .youtube a::after {
+    font: normal 70px Genericons;
+    padding-top: 8px;
+    padding-left: 6px;
   }
 }
 
@@ -2723,7 +2987,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area4 .tiktok a[href*="tiktok.com"]::before {
-  background-color: #ffa500;
+  background-color: #000000;
   content: "\e07b";
 }
 
@@ -2732,7 +2996,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area4 .tiktok a[href*="tiktok.com"]::after {
-  background-color: #ffa500;
+  background-color: #000000;
   content: "\e07b";
 }
 

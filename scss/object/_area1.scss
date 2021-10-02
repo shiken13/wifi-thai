@@ -131,7 +131,10 @@
     }
     .GB1 {
       font-size: 1.8rem;
-      color: #6cb907;
+      color: #fff;
+      text-shadow: 3px 3px 0 #000, -3px -3px 0 #000, -3px 3px 0 #000,
+        3px -3px 0 #000, 0px 3px 0 #000, 0 -3px 0 #000, -3px 0 0 #000,
+        3px 0 0 #000;
       @include overTab {
         font-size: 3rem;
       }
@@ -139,51 +142,12 @@
     .text-line {
       background-image: linear-gradient(rgba(0, 0, 0, 0) 40%, yellow 70%);
     }
-    .GB2 {
+    .GB {
       font-size: 1.5rem;
-      color: #8cc63f;
-      @include overTab {
-        font-size: 2rem;
-      }
-    }
-    .GB3 {
-      font-size: 1.5rem;
-      color: #63bdde;
-      @include overTab {
-        font-size: 2rem;
-      }
-    }
-    .GB4 {
-      font-size: 1.5rem;
-      color: #f0aa4c;
-      @include overTab {
-        font-size: 2rem;
-      }
-    }
-    .GB5 {
-      font-size: 1.5rem;
-      color: #f0aa4c;
-      @include overTab {
-        font-size: 2rem;
-      }
-    }
-    .GB6 {
-      font-size: 1.5rem;
-      color: #8cc63f;
-      @include overTab {
-        font-size: 2rem;
-      }
-    }
-    .GB7 {
-      font-size: 1.5rem;
-      color: #63bdde;
-      @include overTab {
-        font-size: 2rem;
-      }
-    }
-    .GB8 {
-      font-size: 1.5rem;
-      color: #f0aa4c;
+      color: #fff;
+      text-shadow: 3px 3px 0 #000, -3px -3px 0 #000, -3px 3px 0 #000,
+        3px -3px 0 #000, 0px 3px 0 #000, 0 -3px 0 #000, -3px 0 0 #000,
+        3px 0 0 #000;
       @include overTab {
         font-size: 2rem;
       }
@@ -397,7 +361,7 @@
   .follow-me {
     list-style: none;
     margin: 0 0 -8px;
-    margin-bottom: 120px;
+    margin-bottom: 10px;
     overflow: hidden;
     padding: 0;
     justify-content: center;
@@ -549,13 +513,13 @@
       position: absolute;
       top: 10%;
       width: 130px;
-      left: 80%;
+      left: 75%;
       transform: translate(-50%, -50%);
       filter: drop-shadow(10px 2px 0 #c3a400);
       @include overTab {
-        top: -15%;
-        left: 80%;
-        width: 200px;
+        top: -40%;
+        left: 85%;
+        width: 250px;
       }
     }
   }

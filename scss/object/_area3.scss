@@ -203,14 +203,94 @@
       transform: translate(-50%, -50%);
     }
   }
+  .kira1{
+    width: 200px;
+    position: absolute;
+    top: 120%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    @include overTab {
+      width: 300px;
+      top: 55%;
+      left: 80%;
+    }
+  }
+  .kira2{
+    width: 200px;
+    position: absolute;
+    top: 100%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    @include overTab {
+      width: 300px;
+      top: 40%;
+      left: 75%;
+    }
+  }
+  .kira3{
+    width: 130px;
+    position: absolute;
+    top: 120%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    transform: rotate(90deg);
+    z-index: 5;
+    @include overTab {
+      width: 200px;
+      top: 50%;
+      left: 85%;
+    }
+  }
+  .kira4{
+    width: 200px;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    @include overTab {
+      width: 300px;
+      top: 30%;
+      left: 80%;
+    }
+  }
+  .kira5{
+    width: 200px;
+    position: absolute;
+    top: 110%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    @include overTab {
+      width: 300px;
+      top: 10%;
+      left: 85%;
+    }
+  }
+  .kira6{
+    width: 130px;
+    position: absolute;
+    top: 120%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    transform: rotate(90deg);
+    z-index: 5;
+    @include overTab {
+      width: 200px;
+      top: 30%;
+      left: 85%;
+    }
+  }
   .circle1, .circle2 {
     position: absolute;
     top: 140%;
     left:50%;
     transform: translate(-50%, -50%);
-    background: white;
+    background: rgba(229, 250, 252, 0.858);
     border-radius: 50%;
-    box-shadow: 0.375em 0.375em 0 0 rgb(247, 247, 125);
+    box-shadow: 0.375em 0.375em 0 0 rgb(210, 255, 174);
     height: 12em;
     width: 22em;
     @include overTab {
