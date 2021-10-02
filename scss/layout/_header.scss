@@ -16,7 +16,7 @@ header {
   position: relative;
   height: 270px;
   @include overTab {
-    height:600px;
+    height: 600px;
   }
   .logo1 {
     width: 15%;
@@ -24,11 +24,14 @@ header {
     top: 15%;
     left: 15%;
     transform: translate(-50%, -50%);
-    box-shadow: 1px 3px 15px 5px rgb(245, 245, 56),
-      inset 1px 3px 15px 10px rgb(245, 245, 56);
-      border-radius: 50%;
+    box-shadow: 1px 3px 5px 5px rgb(245, 245, 56),
+      inset 1px 3px 5px 5px rgb(245, 245, 56);
+    border-radius: 50%;
     @include overTab {
       top: 20%;
+      box-shadow: 1px 3px 15px 5px rgb(245, 245, 56),
+        inset 1px 3px 15px 10px rgb(245, 245, 56);
+      border-radius: 50%;
     }
   }
   .logo2 {
@@ -49,9 +52,9 @@ header {
     margin: 0 auto;
     display: flex;
     // justify-content: space-between;
-    padding-top:70px;
+    padding-top: 70px;
     @include overTab {
-    padding-top:200px;
+      padding-top: 200px;
     }
   }
   .tai-flag {
