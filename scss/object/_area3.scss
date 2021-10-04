@@ -206,26 +206,26 @@
   .kira1{
     width: 200px;
     position: absolute;
-    top: 120%;
-    left: 40%;
+    top: 105%;
+    left: 70%;
     transform: translate(-50%, -50%);
     z-index: 5;
     @include overTab {
       width: 300px;
-      top: 55%;
+      top: 37%;
       left: 80%;
     }
   }
   .kira2{
     width: 200px;
     position: absolute;
-    top: 100%;
+    top: 105%;
     left: 45%;
     transform: translate(-50%, -50%);
     z-index: 5;
     @include overTab {
       width: 300px;
-      top: 40%;
+      top: 38%;
       left: 75%;
     }
   }
@@ -240,20 +240,21 @@
     @include overTab {
       width: 200px;
       top: 50%;
-      left: 85%;
+      left: 84%;
     }
   }
   .kira4{
     width: 200px;
     position: absolute;
-    top: 125%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transform: rotate(-25deg);
     z-index: 5;
     @include overTab {
       width: 300px;
-      top: 30%;
-      left: 80%;
+      top: -5%;
+      left: 63%;
     }
   }
   .kira5{
@@ -264,15 +265,15 @@
     transform: translate(-50%, -50%);
     z-index: 5;
     @include overTab {
-      width: 300px;
+      width: 340px;
       top: 10%;
-      left: 85%;
+      left: 80%;
     }
   }
   .kira6{
     width: 130px;
     position: absolute;
-    top: 120%;
+    top: 130%;
     left: 75%;
     transform: translate(-50%, -50%);
     transform: rotate(90deg);
@@ -280,7 +281,7 @@
     @include overTab {
       width: 200px;
       top: 30%;
-      left: 85%;
+      left: 84%;
     }
   }
   .circle1, .circle2 {

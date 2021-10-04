@@ -33,8 +33,6 @@
   .heading-text{
     visibility: hidden;
     @include overTab {
-    // display: block;
-    // visibility: visible;
     }
   }
   .heading1::before {
@@ -149,8 +147,8 @@
       z-index: 5;
       @include overTab {
         width: 300px;
-        top: 20%;
-        left: 70%;
+        top: 0%;
+        left: 77%;
       }
     }
     .kira2{
@@ -176,8 +174,8 @@
       z-index: 5;
       @include overTab {
         width: 200px;
-        top: 20%;
-        left: 85%;
+        top: 10%;
+        left: 83%;
       }
     }
     .kira4{
