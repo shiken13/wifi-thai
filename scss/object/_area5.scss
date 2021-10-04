@@ -108,7 +108,7 @@
         font-size: 40px;
       }
     }
-    .text-display{
+    .text-display {
       display: none;
       @include overTab {
         display: block;
@@ -158,7 +158,8 @@
       color: #ffdc00;
     }
   }
-  .area5-image1, .area5-image2 {
+  .area5-image1,
+  .area5-image2 {
     width: 180px;
     position: absolute;
     top: 135%;
@@ -172,7 +173,7 @@
       transform: translate(-50%, -50%);
     }
   }
-  .area5-image2{
+  .area5-image2 {
     width: 150px;
     left: 75%;
     @include overTab {
@@ -182,7 +183,7 @@
       transform: translate(-50%, -50%);
     }
   }
-  .kira1{
+  .kira1 {
     width: 220px;
     position: absolute;
     top: 115%;
@@ -195,7 +196,7 @@
       left: 83%;
     }
   }
-  .kira2{
+  .kira2 {
     width: 220px;
     position: absolute;
     top: 110%;
@@ -208,7 +209,7 @@
       left: 65%;
     }
   }
-  .kira3{
+  .kira3 {
     width: 220px;
     position: absolute;
     top: 110%;
@@ -266,10 +267,75 @@
     @include overTab {
       max-width: 1300px;
     }
-    .map{
-      box-shadow: 1px 3px 20px 10px rgb(247, 247, 125), inset 10px 3px 20px 10px rgb(247, 247, 125);
+    .map-back {
+      box-shadow: 1px 3px 20px 10px rgb(247, 247, 125),
+        inset 10px 3px 20px 10px rgb(247, 247, 125);
     }
-    .sagawa1, .sagawa2{
+    .japan-map {
+      position: absolute;
+      width: 160px;
+      top: 30%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      @include overTab {
+        left: 35%;
+        width: 370px;
+      }
+    }
+    .arrow1 {
+      position: absolute;
+      width: 160px;
+      top: 30%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      transform: rotate(45deg);
+      @include overTab {
+        left: 28%;
+        height: 100px;
+        width: 50px;
+      }
+    }
+    .arrow2 {
+      position: absolute;
+      width: 160px;
+      top: 37%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      transform: rotate(35deg);
+      @include overTab {
+        left: 32%;
+        height: 60px;
+        width: 50px;
+      }
+    }
+    .arrow3 {
+      position: absolute;
+      width: 160px;
+      top: 25%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      transform: rotate(-40deg);
+      @include overTab {
+        left: 36%;
+        height: 60px;
+        width: 55px;
+      }
+    }
+    .arrow4 {
+      position: absolute;
+      width: 160px;
+      top: 15%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      transform: rotate(-140deg);
+      @include overTab {
+        left: 32%;
+        height: 80px;
+        width: 105px;
+      }
+    }
+    .sagawa1,
+    .sagawa2 {
       position: absolute;
       width: 160px;
       top: 10%;
@@ -280,25 +346,27 @@
         width: 320px;
       }
     }
-    .logo-delivery{
-      position:absolute;
+    .logo-delivery {
+      position: absolute;
       width: 40px;
       top: 22%;
       left: 56%;
       transform: translate(-50%, -50%);
       @include overTab {
+        // top: 38%;
+        // left: 37.5%;
         top: 33%;
-        left: 33%;
-        width: 70px;
+        left: 33.5%;
+        width: 45px;
       }
     }
-    .sagawa2{
+    .sagawa2 {
       width: 180px;
       top: 30%;
       left: 80%;
       filter: drop-shadow(5px 2px 0 white);
       @include overTab {
-        top: 42%;
+        top: 44%;
         left: 15%;
         width: 350px;
       }
@@ -313,7 +381,7 @@
         left: 30%;
         width: 550px;
       }
-      &::after{
+      &::after {
         position: absolute;
         display: block;
         content: "";
@@ -321,11 +389,8 @@
         left: 0;
         width: 100%;
         height: 100%;
-        box-shadow:
-        inset 0 0 10px #fff /* 背景色と同じ色 */,
-        inset 0 0 10px #fff,
-        inset 0 0 10px #fff,
-        inset 0 0 10px #fff;
+        box-shadow: inset 0 0 10px #fff /* 背景色と同じ色 */,
+          inset 0 0 10px #fff, inset 0 0 10px #fff, inset 0 0 10px #fff;
       }
     }
     h2 {
@@ -496,7 +561,7 @@
     width: 90%;
     max-width: 1300px;
   }
-  header{
+  header {
     height: auto;
   }
   header h1 {
@@ -538,7 +603,7 @@
   }
   .tab:hover {
     @include overTab {
-    width: 450px;
+      width: 450px;
     }
   }
   .tab:hover .social a:before {
