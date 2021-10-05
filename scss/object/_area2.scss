@@ -1,7 +1,7 @@
-#area2{
+#area2 {
   margin-top: 100px;
   list-style: inherit;
-  .area2-wrapper{
+  .area2-wrapper {
     max-width: 1300px;
     margin: 0 auto;
   }
@@ -30,7 +30,7 @@
     color: white;
     font-weight: bold;
   }
-  .heading-text{
+  .heading-text {
     visibility: hidden;
     @include overTab {
     }
@@ -44,7 +44,7 @@
     font-size: 50px;
     text-transform: uppercase;
     z-index: 1;
-	  font-style: italic;
+    font-style: italic;
     @include overTab {
       font-size: 70px;
       top: -40px;
@@ -99,7 +99,7 @@
     background: red;
     top: 50%;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
   }
   .list_design1 li:after {
     content: "";
@@ -113,16 +113,16 @@
     border-left: 7px solid red;
     top: 50%;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
   }
-  .area2-upper{
+  .area2-upper {
     position: relative;
     margin-bottom: 40px;
   }
   .area2-wifi1 {
     display: grid;
     margin: 0 auto;
-    img{
+    img {
       position: absolute;
       margin-top: 80px;
       display: block;
@@ -130,15 +130,15 @@
       height: auto;
       z-index: 4;
       top: 180%;
-      left:40%;
+      left: 40%;
       transform: translate(-50%, -50%);
       @include overTab {
         width: 400px;
         top: 35%;
-        left:76%;
+        left: 76%;
       }
     }
-    .kira1{
+    .kira1 {
       width: 120px;
       position: absolute;
       top: 166%;
@@ -151,7 +151,7 @@
         left: 77%;
       }
     }
-    .kira2{
+    .kira2 {
       width: 180px;
       position: absolute;
       top: 158%;
@@ -164,7 +164,7 @@
         left: 75%;
       }
     }
-    .kira3{
+    .kira3 {
       width: 140px;
       position: absolute;
       top: 170%;
@@ -178,7 +178,7 @@
         left: 83%;
       }
     }
-    .kira4{
+    .kira4 {
       width: 200px;
       position: absolute;
       top: 20%;
@@ -193,12 +193,12 @@
       }
     }
   }
-  .mokumoku{
+  .mokumoku {
     position: absolute;
     top: -12%;
     left: 60%;
     transform: translate(-50%, -50%);
-    transform:rotate(15deg);
+    transform: rotate(15deg);
     width: 150px;
     height: 60px;
     @include overTab {
@@ -208,34 +208,34 @@
       height: 120px;
     }
   }
-  .point{
+  .point {
     position: absolute;
     font-size: 12px;
     font-weight: bold;
     top: -5%;
     left: 62%;
     transform: translate(-50%, -50%);
-    transform:rotate(18deg);
+    transform: rotate(18deg);
     z-index: 6;
     @include overTab {
       font-size: 25px;
       top: 0%;
       left: 47%;
     }
-    &::before{
+    &::before {
       font-family: "Font Awesome 5 Free";
-      content:'\f521';
-      padding:5px;
-      font-weight:900;
-      color:#FFDC00;
+      content: "\f521";
+      padding: 5px;
+      font-weight: 900;
+      color: #ffdc00;
     }
   }
-  .wifi-customer{
+  .wifi-customer {
     position: absolute;
     top: 220%;
     left: 65%;
     transform: translate(-50%, -50%);
-    transform:rotate(15deg);
+    transform: rotate(15deg);
     width: 100px;
     box-shadow: 10px 10px 0 #c3a400;
     z-index: 10;
@@ -243,14 +243,14 @@
       width: 200px;
       top: 120%;
       left: 78%;
-      transform:rotate(15deg);
+      transform: rotate(15deg);
     }
   }
-  .fukidashi1{
+  .fukidashi1 {
     width: 120px;
     height: 50px;
     top: 220%;
-    left:80%;
+    left: 80%;
     transform: translate(-50%, -50%);
     position: absolute;
     z-index: 11;
@@ -258,12 +258,12 @@
       width: 250px;
       height: 80px;
       top: 120%;
-      left:80%;
+      left: 80%;
     }
   }
-  .customer-text{
+  .customer-text {
     top: 220%;
-    left:80%;
+    left: 80%;
     transform: translate(-50%, -50%);
     position: absolute;
     font-size: 13px;
@@ -272,13 +272,13 @@
     @include overTab {
       font-size: 30px;
       top: 120%;
-      left:80%;
+      left: 80%;
     }
   }
   .circle {
     position: absolute;
     top: 220%;
-    left:46%;
+    left: 46%;
     transform: translate(-50%, -50%);
     background: white;
     border-radius: 50%;
@@ -289,31 +289,31 @@
       height: 15em;
       width: 34em;
       top: 70%;
-      left:76%;
+      left: 76%;
       transform: translate(-50%, -50%);
     }
   }
-  .wifi-text{
+  .wifi-text {
     position: absolute;
     width: 150px;
     top: 230%;
-    left:40%;
+    left: 40%;
     transform: translate(-50%, -50%);
     z-index: 5;
-    background-color:rgb(228, 8, 8) ;
+    background-color: rgb(228, 8, 8);
     text-align: center;
-    font-size: 2.4rem; 
-    font-style: italic; 
-    letter-spacing: .1em; 
-    color: #fff; 
-    text-shadow: -3px 2px 0 #000; 
+    font-size: 2.4rem;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    color: #fff;
+    text-shadow: -3px 2px 0 #000;
     @include overTab {
       top: 90%;
-      left:76%;
-      transform: translate(-50%, -50%);   
+      left: 76%;
+      transform: translate(-50%, -50%);
     }
   }
-  .area2-textarea{
+  .area2-textarea {
     position: relative;
     margin: 2em 0;
     padding: 0.5em 1em;
@@ -322,13 +322,13 @@
     // width: auto;
     width: 85%;
     margin-left: 10px;
-    margin-bottom:300px ;
+    margin-bottom: 300px;
     background-color: rgba(255, 255, 255, 0.548);
     @include overTab {
       width: 800px;
       margin-bottom: inherit;
     }
-    .area2-textarea-title{
+    .area2-textarea-title {
       position: absolute;
       display: inline-block;
       top: -40px;
@@ -345,19 +345,40 @@
         font-size: 40px;
       }
     }
-    .text-display{
+    .text-display {
       display: none;
       @include overTab {
         display: block;
       }
     }
-    p{
+    p {
       font-size: 22px;
-      margin: 0; 
+      margin: 0;
       padding: 0;
       @include overTab {
         font-size: 30px;
-     }
+      }
+    }
+  }
+  .video {
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0px;
+    position: relative;
+    margin-bottom: 100px;
+    @include overTab {
+      margin-bottom: inherit;
+    }
+  }
+  .video iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    @include overTab {
+      width: 80%;
+      height: 80%;
     }
   }
 }

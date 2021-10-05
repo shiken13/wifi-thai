@@ -777,7 +777,8 @@ footer .follow-me li a[href*="tiktok"]::before {
   }
 }
 
-#area1 .intro-text1 .price1, #area1 .intro-text1 .price2 {
+#area1 .intro-text1 .price1,
+#area1 .intro-text1 .price2 {
   color: #e43e5a;
   font-weight: 900;
   font-size: 1.8rem;
@@ -785,7 +786,8 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 @media print, screen and (min-width: 768px) {
-  #area1 .intro-text1 .price1, #area1 .intro-text1 .price2 {
+  #area1 .intro-text1 .price1,
+  #area1 .intro-text1 .price2 {
     font-size: 2.5rem;
   }
 }
@@ -934,7 +936,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 
 #area1 .customer .customer1 {
   width: 30vw;
-  height: 40vh;
+  height: 55vh;
   padding: 10px 5px;
 }
 
@@ -1925,8 +1927,37 @@ footer .follow-me li a[href*="tiktok"]::before {
   }
 }
 
+#area2 .video {
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area2 .video {
+    margin-bottom: inherit;
+  }
+}
+
+#area2 .video iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: auto;
+}
+
+@media print, screen and (min-width: 768px) {
+  #area2 .video iframe {
+    width: 80%;
+    height: 80%;
+  }
+}
+
 #area3 {
-  margin-top: 100px;
   list-style: inherit;
 }
 
