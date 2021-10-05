@@ -156,11 +156,15 @@
       width: 750px;
       font-size: 1.5rem;
     }
-    .text1-title{
+    .text1-title {
       color: #f3d53d;
-      text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.342), -1px -1px 0 rgba(255, 255, 255, 0.342), -1px 1px 0 rgba(255, 255, 255, 0.342),
-          1px -1px 0 rgba(255, 255, 255, 0.342), 0px 1px 0 rgba(255, 255, 255, 0.342), 0 -1px 0 rgba(255, 255, 255, 0.342), -1px 0 0 #rgba(255, 255, 255, 0.342),
-          1px 0 0 rgba(255, 255, 255, 0.342);
+      text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.342),
+        -1px -1px 0 rgba(255, 255, 255, 0.342),
+        -1px 1px 0 rgba(255, 255, 255, 0.342),
+        1px -1px 0 rgba(255, 255, 255, 0.342),
+        0px 1px 0 rgba(255, 255, 255, 0.342),
+        0 -1px 0 rgba(255, 255, 255, 0.342),
+        -1px 0 0 #rgba(255, 255, 255, 0.342), 1px 0 0 rgba(255, 255, 255, 0.342);
       @include overTab {
         font-size: 2.4rem;
       }
@@ -188,7 +192,8 @@
         font-size: 2rem;
       }
     }
-    .price1, .price2 {
+    .price1,
+    .price2 {
       color: #e43e5a;
       font-weight: 900;
       font-size: 1.8rem;
@@ -199,17 +204,17 @@
         font-size: 2.5rem;
       }
     }
-    .price2{
+    .price2 {
       font-size: 1.1rem;
       @include overTab {
         font-size: 1.8rem;
       }
     }
   }
-  .intro-text2{
+  .intro-text2 {
     padding-top: 30px;
     @include overTab {
-    padding-top: 20px;
+      padding-top: 20px;
     }
   }
   .area1-side {
@@ -311,7 +316,7 @@
     }
     .customer1 {
       width: 30vw;
-      height: 40vh;
+      height: 55vh;
       padding: 10px 5px;
       @include overTab {
         height: 40vh;
@@ -374,7 +379,7 @@
       margin-left: 15px;
       margin-right: 5px;
     }
-    .sns{
+    .sns {
       text-align: center;
       font-weight: bold;
       font-size: 30px;
@@ -385,7 +390,7 @@
     }
     .accordion {
       position: absolute;
-      width:70%;
+      width: 70%;
       display: block;
       list-style-type: none;
       overflow: hidden;
@@ -407,7 +412,7 @@
       margin: 0;
       margin-right: 10px;
       margin-top: 10px;
-      &:hover{
+      &:hover {
         opacity: 0.8;
         transition: 0.6s;
         -webkit-transition: 0.6s;
@@ -467,7 +472,7 @@
       background-color: #cd201f;
       content: "\f16a";
     }
-    
+
     /* Social media links: LINE  */
     .line a::before {
       font-family: FontAwesome;
