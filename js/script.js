@@ -36,11 +36,10 @@ $(function() {
 
 $(function(){
   // 自動スライド
-  $('.slick-srider1').slick({
+  $('.slick-srider').slick({
     autoplay: true,
     autoplaySpeed: 3000,
     dots: true,
-    // dotsClass: 'slick-dots2',
     arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -50,28 +49,6 @@ $(function(){
         settings: {
           centerMode:false,
           slidesToShow: 1,
-          slidesToScroll: 1,
-          centerPadding:'0px',
-          centerMode:true,
-        }
-      }
-    ]
-  });
-  $('.slick-srider2').slick({
-    autoplay: true,
-    autoplaySpeed: 3000,
-    dots: true,
-    // dotsClass: 'slick-dots2',
-    arrows: false,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-
-    responsive: [
-      {
-        breakpoint: 767,
-        settings: {
-          centerMode:false,
-          slidesToShow: 2,
           slidesToScroll: 1,
           centerPadding:'0px',
           centerMode:true,
