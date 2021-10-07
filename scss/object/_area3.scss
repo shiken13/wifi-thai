@@ -138,7 +138,7 @@
       margin-top: 25px;
     }
   }
-  .area3-textarea{
+  .area3-textarea1{
     position: relative;
     margin: 2em 0;
     margin-top: 50px;
@@ -185,10 +185,16 @@
       padding: 0;
     }
   }
+  .area3-textarea2{
+    margin-bottom: 600px;
+    @include overTab {
+      margin-bottom: inherit;
+    }
+  }
   .mokumoku1{
     position: absolute;
     z-index: 2;
-    top: 35%;
+    top: 48%;
     left: 60%;
     transform: translate(-50%, -50%);
     transform: rotate(15deg);
@@ -222,7 +228,7 @@
     z-index: 2;
     font-size: 13px;
     font-weight: bold;
-    top: 41%;
+    top: 51%;
     left: 62%;
     transform: translate(-50%, -50%);
     transform:rotate(18deg);
@@ -239,10 +245,32 @@
       color:#FFDC00;
     }
   }
+  .recommend2{
+    position: absolute;
+    z-index: 2;
+    font-size: 14px;
+    font-weight: bold;
+    top: -7%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+    transform:rotate(18deg);
+    @include overTab {
+      top: -10%;
+      left: 44%;
+      font-size: 30px;
+    }
+    &::before{
+      font-family: "Font Awesome 5 Free";
+      content:'\f521';
+      padding:5px;
+      font-weight:900;
+      color:#FFDC00;
+    }
+  }
   .area3-image1{
     width: 280px;
     position: absolute;
-    top: 130%;
+    top: 120%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 4;
@@ -253,10 +281,19 @@
       transform: translate(-50%, -50%);
     }
   }
-  .video{
+  .video iframe {
     position: absolute;
-    top: -220%;
-    left: 60%;
+    margin: 0 auto;
+    width: auto;
+    top: 240%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     @include overTab {
+      width: 440px;
+      height: 260px;
+      top: -180%;
+      left: 78%;
+    }
   }
   .area3-image2{
     width: 280px;
@@ -301,7 +338,7 @@
   .kira3{
     width: 130px;
     position: absolute;
-    top: 120%;
+    top: 110%;
     left: 75%;
     transform: translate(-50%, -50%);
     transform: rotate(90deg);
@@ -355,7 +392,7 @@
   }
   .circle1, .circle2 {
     position: absolute;
-    top: 140%;
+    top: 125%;
     left:50%;
     transform: translate(-50%, -50%);
     background: rgba(229, 250, 252, 0.858);
@@ -380,7 +417,7 @@
   .sim-text1, .sim-text2{
     position: absolute;
     width: 150px;
-    top: 150%;
+    top: 130%;
     left:50%;
     transform: translate(-50%, -50%);
     z-index: 5;
@@ -402,28 +439,7 @@
     top: 70%;
     }
   }
-  .recommend2{
-    position: absolute;
-    z-index: 2;
-    font-size: 14px;
-    font-weight: bold;
-    top: -7%;
-    left: 64%;
-    transform: translate(-50%, -50%);
-    transform:rotate(18deg);
-    @include overTab {
-      top: -10%;
-      left: 44%;
-      font-size: 30px;
-    }
-    &::before{
-      font-family: "Font Awesome 5 Free";
-      content:'\f521';
-      padding:5px;
-      font-weight:900;
-      color:#FFDC00;
-    }
-  }
+
   .border1{
     margin: 0 auto;
     width: 90%;
