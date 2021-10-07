@@ -176,7 +176,7 @@
     padding: 5px 0px;
     font-size: 1.2rem;
     font-weight: bold;
-    padding-top: 20px;
+    padding-top: 10px;
     @include overTab {
       width: 750px;
       font-size: 1.5rem;
@@ -237,9 +237,9 @@
     }
   }
   .intro-text2 {
-    padding-top: 30px;
+    padding-top: 10px;
     @include overTab {
-      padding-top: 20px;
+      padding-top: 10px;
     }
   }
   .area1-side {

@@ -198,12 +198,12 @@ header #emoji1:before {
 }
 
 header #emoji2:before {
-  content: "\01F1EE \01F1F8";
+  content: "\01F1F9 \01F1ED";
   padding-right: 3px;
 }
 
 header #emoji3:before {
-  content: "\01F1EF";
+  content: "\01F1EF \01F1F5";
   padding-right: 3px;
 }
 
@@ -780,7 +780,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   padding: 5px 0px;
   font-size: 1.2rem;
   font-weight: bold;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 @media print, screen and (min-width: 768px) {
@@ -856,12 +856,12 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area1 .intro-text2 {
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 @media print, screen and (min-width: 768px) {
   #area1 .intro-text2 {
-    padding-top: 20px;
+    padding-top: 10px;
   }
 }
 
