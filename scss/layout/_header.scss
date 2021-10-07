@@ -16,7 +16,7 @@ header {
   position: relative;
   height: 270px;
   @include overTab {
-    height: 600px;
+    height: 550px;
   }
   .logo1 {
     width: 15%;
@@ -109,11 +109,23 @@ header {
       transform: translate(-50%, -50%);
       filter: drop-shadow(10px 2px 0 #ecca1c);
       @include overTab {
-        top: -28%;
-        left: 80%;
-        width: 240px;
+        top: -105%;
+        left: 88%;
+        width: 160px;
       }
     }
+  }
+  #emoji1:before {
+    content: "\01F64F";
+    padding-right: 3px;
+  }
+  #emoji2:before {
+    content: "\01F1EE \01F1F8";
+    padding-right: 3px;
+  }
+  #emoji3:before {
+    content: "\01F1EF";
+    padding-right: 3px;
   }
 }
 

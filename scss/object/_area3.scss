@@ -54,6 +54,70 @@
       left: 60px;
     }
   }
+  .list_design1 {
+    list-style: none;
+    counter-reset: list;
+    display: inline-block;
+    padding: 10px 20px;
+    // margin: 1rem;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.548);
+    box-shadow: 2px 2px 4px gray;
+    margin-right: 5px;
+    margin-left: 5px;
+    @include overTab {
+      padding: 1rem 2rem;
+      margin: 1rem;
+    }
+  }
+  .list_design1 li {
+    position: relative;
+    padding: 10px 20px;
+    // margin: 1rem;
+    padding-left: 63px;
+    line-height: 30px;
+    border-bottom: 2px dotted red;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 5px;
+    @include overTab {
+      font-size: 30px;
+      margin-bottom: 30px;
+      padding: 1rem 1rem;
+      margin: 1rem;
+      padding-left: 60px;
+    }
+  }
+  .list_design1 li:before {
+    counter-increment: list;
+    content: counter(list);
+    position: absolute;
+    left: 0px;
+    width: 50px;
+    height: 62px;
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+    background: red;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .list_design1 li:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50px;
+    height: 0;
+    width: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 7px solid red;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
   h3 {
     color: black;
     font-size: 20px;
@@ -131,7 +195,7 @@
     width: 150px;
     height: 70px;
     @include overTab {
-      top: 10%;
+      top: 50%;
       left: 40%;
       width: 350px;
       height: 120px;
@@ -163,7 +227,7 @@
     transform: translate(-50%, -50%);
     transform:rotate(18deg);
     @include overTab {
-      top: 18%;
+      top: 55%;
       left: 42%;
       font-size: 30px;
     }
@@ -184,10 +248,15 @@
     z-index: 4;
     @include overTab {
       width: 300px;
-      top: 60%;
+      top: 75%;
       left: 80%;
       transform: translate(-50%, -50%);
     }
+  }
+  .video{
+    position: absolute;
+    top: -220%;
+    left: 60%;
   }
   .area3-image2{
     width: 280px;
@@ -212,7 +281,7 @@
     z-index: 5;
     @include overTab {
       width: 300px;
-      top: 37%;
+      top: 60%;
       left: 80%;
     }
   }
@@ -225,7 +294,7 @@
     z-index: 5;
     @include overTab {
       width: 300px;
-      top: 38%;
+      top: 60%;
       left: 75%;
     }
   }
@@ -239,7 +308,7 @@
     z-index: 5;
     @include overTab {
       width: 200px;
-      top: 50%;
+      top: 65%;
       left: 84%;
     }
   }
@@ -297,7 +366,7 @@
     @include overTab {
       height: 15em;
       width: 24em;
-      top: 70%;
+      top: 80%;
       left: 80%;
       transform: translate(-50%, -50%);
     }
@@ -323,7 +392,7 @@
     color: #fff; 
     text-shadow: -3px 2px 0 #000; 
     @include overTab {
-      top: 80%;
+      top: 85%;
       left: 80%;   
     }
   }
