@@ -104,7 +104,7 @@
   .area1-image3 {
     width: 100px;
     position: absolute;
-    top: -5%;
+    top: -8%;
     left: 69%;
     transform: rotate(10deg);
     box-shadow: 1px 3px 20px 10px rgb(247, 247, 125),
@@ -157,7 +157,7 @@
   .area1-image8 {
     width: 100px;
     position: absolute;
-    top: 57%;
+    top: 52%;
     left: 68%;
     transform: rotate(10deg);
     box-shadow: 1px 3px 20px 10px rgb(247, 247, 125),
@@ -237,7 +237,7 @@
     }
   }
   .intro-text2 {
-    padding-top: 30px;
+    padding-top: 15px;
     @include overTab {
       padding-top: 10px;
     }

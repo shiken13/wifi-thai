@@ -678,7 +678,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area1 .area1-image3 {
   width: 100px;
   position: absolute;
-  top: -5%;
+  top: -8%;
   left: 69%;
   -webkit-transform: rotate(10deg);
           transform: rotate(10deg);
@@ -756,7 +756,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area1 .area1-image8 {
   width: 100px;
   position: absolute;
-  top: 57%;
+  top: 52%;
   left: 68%;
   -webkit-transform: rotate(10deg);
           transform: rotate(10deg);
@@ -856,7 +856,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area1 .intro-text2 {
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 @media print, screen and (min-width: 768px) {
@@ -2366,7 +2366,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area3 .area3-image1 {
   width: 280px;
   position: absolute;
-  top: 270%;
+  top: 280%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -2424,7 +2424,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area3 .kira1 {
   width: 200px;
   position: absolute;
-  top: 255%;
+  top: 265%;
   left: 70%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -2442,7 +2442,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area3 .kira2 {
   width: 200px;
   position: absolute;
-  top: 255%;
+  top: 265%;
   left: 45%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -2460,7 +2460,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area3 .kira3 {
   width: 130px;
   position: absolute;
-  top: 260%;
+  top: 270%;
   left: 75%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -2479,7 +2479,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 
 #area3 .circle1, #area3 .circle2 {
   position: absolute;
-  top: 280%;
+  top: 290%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -2505,7 +2505,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area3 .sim-text1, #area3 .sim-text2 {
   position: absolute;
   width: 150px;
-  top: 285%;
+  top: 295%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
