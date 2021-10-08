@@ -143,7 +143,7 @@
     margin: 2em 0;
     margin-top: 50px;
     margin-left: 10px;
-    margin-bottom: 300px;
+    margin-bottom: 350px;
     padding: 0.5em 1em;
     border: solid 3px #ea551c;
     border-radius: 30px;
@@ -186,7 +186,7 @@
     }
   }
   .area3-textarea2{
-    margin-bottom: 600px;
+    margin-bottom: 700px;
     @include overTab {
       margin-bottom: inherit;
     }
@@ -270,116 +270,75 @@
   .area3-image1{
     width: 280px;
     position: absolute;
-    top: 120%;
+    top: 270%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 4;
     @include overTab {
       width: 300px;
-      top: 75%;
+      top: 35%;
       left: 80%;
       transform: translate(-50%, -50%);
     }
   }
-  .video iframe {
+  .video1 iframe {
     position: absolute;
     margin: 0 auto;
     width: auto;
-    top: 240%;
+    top: -80%;
     left: 50%;
     transform: translate(-50%, -50%);
      @include overTab {
       width: 440px;
       height: 260px;
-      top: -180%;
+      top: -60%;
       left: 78%;
     }
   }
-  .area3-image2{
-    width: 280px;
+  .video2 iframe {
     position: absolute;
-    top: 140%;
+    margin: 0 auto;
+    width: auto;
+    top: 160%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 4;
-    @include overTab {
-      width: 300px;
-      top: 40%;
-      left: 80%;
-      transform: translate(-50%, -50%);
+     @include overTab {
+      width: 440px;
+      height: 260px;
+      top: 60%;
+      left: 78%;
     }
   }
   .kira1{
     width: 200px;
     position: absolute;
-    top: 105%;
+    top: 255%;
     left: 70%;
     transform: translate(-50%, -50%);
     z-index: 5;
     @include overTab {
       width: 300px;
-      top: 60%;
+      top: 25%;
       left: 80%;
     }
   }
   .kira2{
     width: 200px;
     position: absolute;
-    top: 105%;
+    top: 255%;
     left: 45%;
     transform: translate(-50%, -50%);
     z-index: 5;
     @include overTab {
       width: 300px;
-      top: 60%;
+      top: 20%;
       left: 75%;
     }
   }
   .kira3{
     width: 130px;
     position: absolute;
-    top: 110%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    transform: rotate(90deg);
-    z-index: 5;
-    @include overTab {
-      width: 200px;
-      top: 65%;
-      left: 84%;
-    }
-  }
-  .kira4{
-    width: 200px;
-    position: absolute;
-    top: 95%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transform: rotate(-25deg);
-    z-index: 5;
-    @include overTab {
-      width: 300px;
-      top: -5%;
-      left: 63%;
-    }
-  }
-  .kira5{
-    width: 200px;
-    position: absolute;
-    top: 110%;
-    left: 45%;
-    transform: translate(-50%, -50%);
-    z-index: 5;
-    @include overTab {
-      width: 340px;
-      top: 10%;
-      left: 80%;
-    }
-  }
-  .kira6{
-    width: 130px;
-    position: absolute;
-    top: 130%;
+    top: 260%;
     left: 75%;
     transform: translate(-50%, -50%);
     transform: rotate(90deg);
@@ -392,7 +351,7 @@
   }
   .circle1, .circle2 {
     position: absolute;
-    top: 125%;
+    top: 280%;
     left:50%;
     transform: translate(-50%, -50%);
     background: rgba(229, 250, 252, 0.858);
@@ -403,21 +362,21 @@
     @include overTab {
       height: 15em;
       width: 24em;
-      top: 80%;
+      top: 40%;
       left: 80%;
       transform: translate(-50%, -50%);
     }
   }
-  .circle2{
-    top: 150%;
-    @include overTab {
-    top: 55%;
-    }
-  }
+  // .circle2{
+  //   top: 150%;
+  //   @include overTab {
+  //   top: 55%;
+  //   }
+  // }
   .sim-text1, .sim-text2{
     position: absolute;
     width: 150px;
-    top: 130%;
+    top: 285%;
     left:50%;
     transform: translate(-50%, -50%);
     z-index: 5;
@@ -429,16 +388,16 @@
     color: #fff; 
     text-shadow: -3px 2px 0 #000; 
     @include overTab {
-      top: 85%;
+      top: 45%;
       left: 80%;   
     }
   }
-  .sim-text2{
-    top: 160%;
-    @include overTab {
-    top: 70%;
-    }
-  }
+  // .sim-text2{
+  //   top: 160%;
+  //   @include overTab {
+  //   top: 70%;
+  //   }
+  // }
 
   .border1{
     margin: 0 auto;
