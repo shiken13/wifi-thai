@@ -588,7 +588,7 @@
       margin: 0 auto;
       width: auto;
       @include overTab {
-        width: 550px;
+        width: 650px;
       }
     }
     .text-line {
@@ -679,7 +679,7 @@
     font-size: 20px;
     border: 1px white solid;
     @include overTab {
-      font-size: 33px;
+      font-size: 32px;
       width: 40vw;
     }
     &::before {

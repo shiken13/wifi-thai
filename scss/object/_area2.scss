@@ -71,7 +71,6 @@
   .list_design1 li {
     position: relative;
     padding: 10px 20px;
-    // margin: 1rem;
     padding-left: 63px;
     line-height: 30px;
     border-bottom: 2px dotted red;
@@ -134,8 +133,8 @@
       transform: translate(-50%, -50%);
       @include overTab {
         width: 400px;
-        top: 35%;
-        left: 76%;
+        top: 30%;
+        left: 82%;
       }
     }
     .kira1 {
@@ -147,8 +146,8 @@
       z-index: 5;
       @include overTab {
         width: 300px;
-        top: 0%;
-        left: 77%;
+        top: -5%;
+        left: 80%;
       }
     }
     .kira2 {
@@ -160,8 +159,8 @@
       z-index: 5;
       @include overTab {
         width: 300px;
-        top: 5%;
-        left: 75%;
+        top: 0%;
+        left: 80%;
       }
     }
     .kira3 {
@@ -175,7 +174,7 @@
       @include overTab {
         width: 200px;
         top: 10%;
-        left: 83%;
+        left: 88%;
       }
     }
     .kira4 {
@@ -189,7 +188,7 @@
       @include overTab {
         width: 200px;
         top: 20%;
-        left: 82%;
+        left: 89%;
       }
     }
   }
@@ -202,7 +201,7 @@
     width: 150px;
     height: 60px;
     @include overTab {
-      top: -10%;
+      top: -20%;
       left: 45%;
       width: 300px;
       height: 120px;
@@ -219,7 +218,7 @@
     z-index: 6;
     @include overTab {
       font-size: 25px;
-      top: 0%;
+      top: -9%;
       left: 47%;
     }
     &::before {
@@ -255,7 +254,7 @@
     position: absolute;
     z-index: 11;
     @include overTab {
-      width: 250px;
+      width: 300px;
       height: 80px;
       top: 120%;
       left: 80%;
@@ -286,30 +285,31 @@
     height: 11em;
     width: 20em;
     @include overTab {
-      height: 15em;
-      width: 34em;
+      height: 13em;
+      width: 30em;
       top: 70%;
-      left: 76%;
+      left:81%;
       transform: translate(-50%, -50%);
     }
   }
   .wifi-text {
     position: absolute;
-    width: 150px;
+    width: 350px;
     top: 230%;
     left: 40%;
+    padding: 5px 0;
     transform: translate(-50%, -50%);
     z-index: 5;
     background-color: rgb(228, 8, 8);
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     font-style: italic;
     letter-spacing: 0.1em;
     color: #fff;
     text-shadow: -3px 2px 0 #000;
     @include overTab {
-      top: 90%;
-      left: 76%;
+      top: 85%;
+      left: 82%;
       transform: translate(-50%, -50%);
     }
   }
@@ -344,6 +344,10 @@
       @include overTab {
         font-size: 40px;
       }
+    }
+    #emoji4:before {
+      content: "\01F91D";
+      padding-right: 3px;
     }
     .text-display {
       display: none;

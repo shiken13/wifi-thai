@@ -150,7 +150,7 @@
     @include overTab {
       margin-left: 30px;
       margin-bottom: 100px;
-      width: 40%;
+      width: 45%;
       max-width: 1300px;
     }
     .area5-textarea-title {
@@ -170,17 +170,20 @@
         font-size: 40px;
       }
     }
-    .text-display {
-      display: none;
-      @include overTab {
-        display: block;
-      }
-    }
     p {
       font-size: 22px;
       margin: 0;
       padding: 0;
     }
+  }
+  #emoji7:before {
+    content: "\026A0";
+    // content: "\1F6AB";
+    padding-right: 3px;
+  }
+  #emoji8:before {
+    content: "\01F91D";
+    padding-right: 3px;
   }
   .video iframe {
     position: absolute;
@@ -192,8 +195,8 @@
     @include overTab {
       width: 440px;
       height: 260px;
-      top: 35%;
-      left: 78%;
+      top: 25%;
+      left: 80%;
     }
   }
   .mokumoku3 {
@@ -207,7 +210,7 @@
     height: 70px;
     @include overTab {
       top: 5%;
-      left: 30%;
+      left: 45%;
       width: 350px;
       height: 120px;
     }
@@ -222,9 +225,9 @@
     transform: translate(-50%, -50%);
     transform: rotate(18deg);
     @include overTab {
-      top: 10%;
-      left: 32%;
-      font-size: 25px;
+      top:6%;
+      left: 50%;
+      font-size: 24px;
     }
     &::before {
       font-family: "Font Awesome 5 Free";
@@ -243,8 +246,8 @@
     transform: translate(-50%, -50%);
     z-index: 4;
     @include overTab {
-      width: 240px;
-      top: 80%;
+      width: 300px;
+      top: 65%;
       left: 65%;
       transform: translate(-50%, -50%);
     }
@@ -254,7 +257,7 @@
     left: 75%;
     @include overTab {
       width: 240px;
-      top: 78%;
+      top: 68%;
       left: 85%;
       transform: translate(-50%, -50%);
     }
@@ -268,7 +271,7 @@
     z-index: 5;
     @include overTab {
       width: 200px;
-      top: 60%;
+      top: 55%;
       left: 83%;
     }
   }
@@ -281,7 +284,7 @@
     z-index: 5;
     @include overTab {
       width: 320px;
-      top: 63%;
+      top: 55%;
       left: 65%;
     }
   }
@@ -294,7 +297,7 @@
     z-index: 5;
     @include overTab {
       width: 300px;
-      top: 65%;
+      top: 58%;
       left: 85%;
     }
   }
@@ -309,9 +312,9 @@
     height: 10em;
     width: 22em;
     @include overTab {
-      height: 12em;
+      height: 20em;
       width: 38em;
-      top: 90%;
+      top: 70%;
       left: 75%;
       transform: translate(-50%, -50%);
     }
@@ -331,7 +334,7 @@
     color: #fff;
     text-shadow: -3px 2px 0 #000;
     @include overTab {
-      top: 95%;
+      top: 75%;
       left: 75%;
     }
   }
@@ -562,7 +565,7 @@
       font-size: 20px;
       border: 1px white solid;
       @include overTab {
-        font-size: 33px;
+        font-size: 32px;
         width: 40vw;
       }
       &::before {

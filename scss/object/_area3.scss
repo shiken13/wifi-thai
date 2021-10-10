@@ -191,6 +191,11 @@
       margin-bottom: inherit;
     }
   }
+  #emoji5:before {
+    content: "\026A0";
+    // content: "\1F6AB";
+    padding-right: 3px;
+  }
   .mokumoku1{
     position: absolute;
     z-index: 2;
@@ -201,7 +206,7 @@
     width: 150px;
     height: 70px;
     @include overTab {
-      top: 50%;
+      top: 9%;
       left: 40%;
       width: 350px;
       height: 120px;
@@ -217,7 +222,7 @@
     width: 150px;
     height: 70px;
     @include overTab {
-      top: -20%;
+      top: -12%;
       left: 40%;
       width: 350px;
       height: 120px;
@@ -233,7 +238,7 @@
     transform: translate(-50%, -50%);
     transform:rotate(18deg);
     @include overTab {
-      top: 55%;
+      top: 12%;
       left: 42%;
       font-size: 30px;
     }
@@ -255,9 +260,9 @@
     transform: translate(-50%, -50%);
     transform:rotate(18deg);
     @include overTab {
-      top: -10%;
+      top: -8%;
       left: 44%;
-      font-size: 30px;
+      font-size: 22px;
     }
     &::before{
       font-family: "Font Awesome 5 Free";
@@ -291,7 +296,7 @@
      @include overTab {
       width: 440px;
       height: 260px;
-      top: -60%;
+      top: -50%;
       left: 78%;
     }
   }
@@ -375,14 +380,15 @@
   // }
   .sim-text1, .sim-text2{
     position: absolute;
-    width: 150px;
+    width: 380px;
     top: 295%;
     left:50%;
+    padding: 5px 0;
     transform: translate(-50%, -50%);
     z-index: 5;
     background-color:rgb(228, 8, 8) ;
     text-align: center;
-    font-size: 2.4rem; 
+    font-size: 1.5rem;
     font-style: italic; 
     letter-spacing: .1em; 
     color: #fff; 
@@ -398,7 +404,6 @@
   //   top: 70%;
   //   }
   // }
-
   .border1{
     margin: 0 auto;
     width: 90%;

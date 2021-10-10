@@ -167,17 +167,15 @@
         font-size: 40px;
       }
     }
-    .text-display{
-      display: none;
-      @include overTab {
-        display: block;
-      }
-    }
     p {
       font-size: 22px;
       margin: 0;
       padding: 0;
     }
+  }
+  #emoji6:before {
+    content: "\01F91D";
+    padding-right: 3px;
   }
   .video iframe {
     position: absolute;
@@ -189,8 +187,8 @@
      @include overTab {
       width: 440px;
       height: 260px;
-      top: 35%;
-      left: 78%;
+      top: 36%;
+      left: 80%;
     }
   }
   .mokumoku3 {
@@ -291,20 +289,21 @@
   }
   .sim-text3 {
     position: absolute;
-    width: 150px;
+    padding: 5px 0;
+    width: 250px;
     top: 135%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 5;
     background-color: rgb(228, 8, 8);
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 1.5rem;
     font-style: italic;
     letter-spacing: 0.1em;
     color: #fff;
     text-shadow: -3px 2px 0 #000;
     @include overTab {
-      top: 90%;
+      top: 92%;
       left: 80%;   
     }
   }
