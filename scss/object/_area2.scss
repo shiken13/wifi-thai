@@ -56,15 +56,14 @@
     list-style: none;
     counter-reset: list;
     display: inline-block;
-    padding: 10px 20px;
-    // margin: 1rem;
+    padding: 10px 8px;
     border-radius: 30px;
     background-color: rgba(255, 255, 255, 0.548);
     box-shadow: 2px 2px 4px gray;
     margin-right: 5px;
     margin-left: 5px;
     @include overTab {
-      padding: 1rem 2rem;
+      padding: 1rem 1rem;
       margin: 1rem;
     }
   }
@@ -128,8 +127,8 @@
       width: 250px;
       height: auto;
       z-index: 4;
-      top: 180%;
-      left: 40%;
+      top: 220%;
+      left: 45%;
       transform: translate(-50%, -50%);
       @include overTab {
         width: 400px;
@@ -140,7 +139,7 @@
     .kira1 {
       width: 120px;
       position: absolute;
-      top: 166%;
+      top: 196%;
       left: 20%;
       transform: translate(-50%, -50%);
       z-index: 5;
@@ -153,7 +152,7 @@
     .kira2 {
       width: 180px;
       position: absolute;
-      top: 158%;
+      top: 198%;
       left: 55%;
       transform: translate(-50%, -50%);
       z-index: 5;
@@ -166,7 +165,7 @@
     .kira3 {
       width: 140px;
       position: absolute;
-      top: 170%;
+      top: 210%;
       left: 55%;
       transform: translate(-50%, -50%);
       transform: rotate(90deg);
@@ -231,7 +230,7 @@
   }
   .wifi-customer {
     position: absolute;
-    top: 220%;
+    top: 280%;
     left: 65%;
     transform: translate(-50%, -50%);
     transform: rotate(15deg);
@@ -248,8 +247,8 @@
   .fukidashi1 {
     width: 120px;
     height: 50px;
-    top: 220%;
-    left: 80%;
+    top: 285%;
+    left: 66%;
     transform: translate(-50%, -50%);
     position: absolute;
     z-index: 11;
@@ -261,8 +260,8 @@
     }
   }
   .customer-text {
-    top: 220%;
-    left: 80%;
+    top: 285%;
+    left: 66%;
     transform: translate(-50%, -50%);
     position: absolute;
     font-size: 13px;
@@ -276,7 +275,7 @@
   }
   .circle {
     position: absolute;
-    top: 220%;
+    top: 265%;
     left: 46%;
     transform: translate(-50%, -50%);
     background: white;
@@ -294,9 +293,9 @@
   }
   .wifi-text {
     position: absolute;
-    width: 350px;
-    top: 230%;
-    left: 40%;
+    width: 320px;
+    top: 270%;
+    left: 45%;
     padding: 5px 0;
     transform: translate(-50%, -50%);
     z-index: 5;
@@ -308,6 +307,7 @@
     color: #fff;
     text-shadow: -3px 2px 0 #000;
     @include overTab {
+      width: 350px;
       top: 85%;
       left: 82%;
       transform: translate(-50%, -50%);
@@ -315,14 +315,14 @@
   }
   .area2-textarea {
     position: relative;
-    margin: 2em 0;
+    margin: 3em 0;
     padding: 0.5em 1em;
     border: solid 3px #ea551c;
     border-radius: 30px;
     // width: auto;
     width: 85%;
     margin-left: 10px;
-    margin-bottom: 300px;
+    margin-bottom: 400px;
     background-color: rgba(255, 255, 255, 0.548);
     @include overTab {
       width: 800px;

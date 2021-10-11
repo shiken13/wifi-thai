@@ -380,24 +380,26 @@
     z-index: 11;
   }
   .fukidashi2 {
-    width: 360px;
+    width: 380px;
     height: 130px;
     top: -100px;
     position: absolute;
     left: 0px;
     z-index: 11;
     @include overTab {
+      width: 25vw;
       left: -30px;
     }
   }
   .customer-text {
-    top: -80px;
+    top: -78px;
     left: 50px;
     position: absolute;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: bold;
     z-index: 11;
     @include overTab {
+      font-size: 1.2rem;
       left: 15px;
     }
   }
