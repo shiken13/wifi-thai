@@ -150,7 +150,7 @@ header .profile-area .profile-text {
 }
 header .profile-area .profile {
   position: absolute;
-  top: 20%;
+  top: 15%;
   width: 120px;
   left: 78%;
   transform: translate(-50%, -50%);
@@ -571,7 +571,7 @@ footer .follow-me li a[href*=tiktok]::before {
 #area1 .area1-image3 {
   width: 100px;
   position: absolute;
-  top: -5%;
+  top: -8%;
   left: 69%;
   transform: rotate(10deg);
   box-shadow: 1px 3px 20px 10px #f7f77d, inset 10px 3px 20px 10px #f7f77d;
@@ -631,7 +631,7 @@ footer .follow-me li a[href*=tiktok]::before {
 #area1 .area1-image8 {
   width: 100px;
   position: absolute;
-  top: 57%;
+  top: 52%;
   left: 68%;
   transform: rotate(10deg);
   box-shadow: 1px 3px 20px 10px #f7f77d, inset 10px 3px 20px 10px #f7f77d;
@@ -713,7 +713,7 @@ footer .follow-me li a[href*=tiktok]::before {
   }
 }
 #area1 .intro-text2 {
-  padding-top: 30px;
+  padding-top: 15px;
 }
 @media print, screen and (min-width: 768px) {
   #area1 .intro-text2 {
@@ -870,7 +870,7 @@ footer .follow-me li a[href*=tiktok]::before {
   z-index: 11;
 }
 #area1 .fukidashi2 {
-  width: 360px;
+  width: 380px;
   height: 130px;
   top: -100px;
   position: absolute;
@@ -879,19 +879,21 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 @media print, screen and (min-width: 768px) {
   #area1 .fukidashi2 {
+    width: 25vw;
     left: -30px;
   }
 }
 #area1 .customer-text {
-  top: -80px;
+  top: -78px;
   left: 50px;
   position: absolute;
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: bold;
   z-index: 11;
 }
 @media print, screen and (min-width: 768px) {
   #area1 .customer-text {
+    font-size: 1.2rem;
     left: 15px;
   }
 }
@@ -1089,7 +1091,7 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 @media print, screen and (min-width: 768px) {
   #area1 .balloon1 p {
-    width: 550px;
+    width: 650px;
   }
 }
 #area1 .balloon1 .text-line {
@@ -1185,7 +1187,7 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 @media print, screen and (min-width: 768px) {
   #area1 .tel-btn {
-    font-size: 33px;
+    font-size: 32px;
     width: 40vw;
   }
 }
@@ -1338,7 +1340,7 @@ footer .follow-me li a[href*=tiktok]::before {
   list-style: none;
   counter-reset: list;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 8px;
   border-radius: 30px;
   background-color: rgba(255, 255, 255, 0.548);
   box-shadow: 2px 2px 4px gray;
@@ -1347,7 +1349,7 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 @media print, screen and (min-width: 768px) {
   #area2 .list_design1 {
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     margin: 1rem;
   }
 }
@@ -1412,21 +1414,21 @@ footer .follow-me li a[href*=tiktok]::before {
   width: 250px;
   height: auto;
   z-index: 4;
-  top: 180%;
-  left: 40%;
+  top: 220%;
+  left: 45%;
   transform: translate(-50%, -50%);
 }
 @media print, screen and (min-width: 768px) {
   #area2 .area2-wifi1 img {
     width: 400px;
-    top: 35%;
-    left: 76%;
+    top: 30%;
+    left: 82%;
   }
 }
 #area2 .area2-wifi1 .kira1 {
   width: 120px;
   position: absolute;
-  top: 166%;
+  top: 196%;
   left: 20%;
   transform: translate(-50%, -50%);
   z-index: 5;
@@ -1434,14 +1436,14 @@ footer .follow-me li a[href*=tiktok]::before {
 @media print, screen and (min-width: 768px) {
   #area2 .area2-wifi1 .kira1 {
     width: 300px;
-    top: 0%;
-    left: 77%;
+    top: -5%;
+    left: 80%;
   }
 }
 #area2 .area2-wifi1 .kira2 {
   width: 180px;
   position: absolute;
-  top: 158%;
+  top: 198%;
   left: 55%;
   transform: translate(-50%, -50%);
   z-index: 5;
@@ -1449,14 +1451,14 @@ footer .follow-me li a[href*=tiktok]::before {
 @media print, screen and (min-width: 768px) {
   #area2 .area2-wifi1 .kira2 {
     width: 300px;
-    top: 5%;
-    left: 75%;
+    top: 0%;
+    left: 80%;
   }
 }
 #area2 .area2-wifi1 .kira3 {
   width: 140px;
   position: absolute;
-  top: 170%;
+  top: 210%;
   left: 55%;
   transform: translate(-50%, -50%);
   transform: rotate(90deg);
@@ -1466,7 +1468,7 @@ footer .follow-me li a[href*=tiktok]::before {
   #area2 .area2-wifi1 .kira3 {
     width: 200px;
     top: 10%;
-    left: 83%;
+    left: 88%;
   }
 }
 #area2 .area2-wifi1 .kira4 {
@@ -1482,7 +1484,7 @@ footer .follow-me li a[href*=tiktok]::before {
   #area2 .area2-wifi1 .kira4 {
     width: 200px;
     top: 20%;
-    left: 82%;
+    left: 89%;
   }
 }
 #area2 .mokumoku {
@@ -1496,7 +1498,7 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 @media print, screen and (min-width: 768px) {
   #area2 .mokumoku {
-    top: -10%;
+    top: -20%;
     left: 45%;
     width: 300px;
     height: 120px;
@@ -1515,7 +1517,7 @@ footer .follow-me li a[href*=tiktok]::before {
 @media print, screen and (min-width: 768px) {
   #area2 .point {
     font-size: 25px;
-    top: 0%;
+    top: -9%;
     left: 47%;
   }
 }
@@ -1528,7 +1530,7 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 #area2 .wifi-customer {
   position: absolute;
-  top: 220%;
+  top: 280%;
   left: 65%;
   transform: translate(-50%, -50%);
   transform: rotate(15deg);
@@ -1547,23 +1549,23 @@ footer .follow-me li a[href*=tiktok]::before {
 #area2 .fukidashi1 {
   width: 120px;
   height: 50px;
-  top: 220%;
-  left: 80%;
+  top: 285%;
+  left: 66%;
   transform: translate(-50%, -50%);
   position: absolute;
   z-index: 11;
 }
 @media print, screen and (min-width: 768px) {
   #area2 .fukidashi1 {
-    width: 250px;
+    width: 300px;
     height: 80px;
     top: 120%;
     left: 80%;
   }
 }
 #area2 .customer-text {
-  top: 220%;
-  left: 80%;
+  top: 285%;
+  left: 66%;
   transform: translate(-50%, -50%);
   position: absolute;
   font-size: 13px;
@@ -1579,7 +1581,7 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 #area2 .circle {
   position: absolute;
-  top: 220%;
+  top: 265%;
   left: 46%;
   transform: translate(-50%, -50%);
   background: white;
@@ -1590,23 +1592,24 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 @media print, screen and (min-width: 768px) {
   #area2 .circle {
-    height: 15em;
-    width: 34em;
+    height: 13em;
+    width: 30em;
     top: 70%;
-    left: 76%;
+    left: 81%;
     transform: translate(-50%, -50%);
   }
 }
 #area2 .wifi-text {
   position: absolute;
-  width: 150px;
-  top: 230%;
-  left: 40%;
+  width: 320px;
+  top: 270%;
+  left: 45%;
+  padding: 5px 0;
   transform: translate(-50%, -50%);
   z-index: 5;
   background-color: #e40808;
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   font-style: italic;
   letter-spacing: 0.1em;
   color: #fff;
@@ -1614,20 +1617,21 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 @media print, screen and (min-width: 768px) {
   #area2 .wifi-text {
-    top: 90%;
-    left: 76%;
+    width: 350px;
+    top: 85%;
+    left: 82%;
     transform: translate(-50%, -50%);
   }
 }
 #area2 .area2-textarea {
   position: relative;
-  margin: 2em 0;
+  margin: 3em 0;
   padding: 0.5em 1em;
   border: solid 3px #ea551c;
   border-radius: 30px;
   width: 85%;
   margin-left: 10px;
-  margin-bottom: 300px;
+  margin-bottom: 400px;
   background-color: rgba(255, 255, 255, 0.548);
 }
 @media print, screen and (min-width: 768px) {
@@ -1654,6 +1658,10 @@ footer .follow-me li a[href*=tiktok]::before {
   #area2 .area2-textarea .area2-textarea-title {
     font-size: 40px;
   }
+}
+#area2 .area2-textarea #emoji4:before {
+  content: "🤝";
+  padding-right: 3px;
 }
 #area2 .area2-textarea .text-display {
   display: none;
@@ -1722,7 +1730,7 @@ footer .follow-me li a[href*=tiktok]::before {
   position: relative;
   padding-top: 20px;
   padding-left: 20px;
-  font-size: 32px;
+  font-size: 28px;
   border-radius: 30px;
   background-color: #ec0a0a;
   border: 1px solid rgba(255, 255, 255, 0.4);
@@ -1764,7 +1772,7 @@ footer .follow-me li a[href*=tiktok]::before {
   list-style: none;
   counter-reset: list;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 8px;
   border-radius: 30px;
   background-color: rgba(255, 255, 255, 0.548);
   box-shadow: 2px 2px 4px gray;
@@ -1773,8 +1781,16 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 @media print, screen and (min-width: 768px) {
   #area3 .list_design1 {
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     margin: 1rem;
+  }
+}
+#area3 .list_design2 {
+  margin-bottom: 480px;
+}
+@media print, screen and (min-width: 768px) {
+  #area3 .list_design2 {
+    margin-bottom: inherit;
   }
 }
 #area3 .list_design1 li {
@@ -1825,7 +1841,7 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 #area3 h3 {
   color: black;
-  font-size: 20px;
+  font-size: 17px;
   border-left: solid 8px orange;
   /*左側の線*/
   background: whitesmoke;
@@ -1854,7 +1870,7 @@ footer .follow-me li a[href*=tiktok]::before {
   margin: 2em 0;
   margin-top: 50px;
   margin-left: 10px;
-  margin-bottom: 300px;
+  margin-bottom: 350px;
   padding: 0.5em 1em;
   border: solid 3px #ea551c;
   border-radius: 30px;
@@ -1889,40 +1905,28 @@ footer .follow-me li a[href*=tiktok]::before {
     font-size: 40px;
   }
 }
-#area3 .area3-textarea1 .text-display {
-  display: none;
-}
-@media print, screen and (min-width: 768px) {
-  #area3 .area3-textarea1 .text-display {
-    display: block;
-  }
-}
 #area3 .area3-textarea1 p {
   font-size: 22px;
   margin: 0;
   padding: 0;
 }
-#area3 .area3-textarea2 {
-  margin-bottom: 600px;
-}
-@media print, screen and (min-width: 768px) {
-  #area3 .area3-textarea2 {
-    margin-bottom: inherit;
-  }
+#area3 #emoji5:before {
+  content: "⚠";
+  padding-right: 3px;
 }
 #area3 .mokumoku1 {
   position: absolute;
   z-index: 2;
-  top: 48%;
-  left: 60%;
+  top: 9%;
+  left: 65%;
   transform: translate(-50%, -50%);
   transform: rotate(15deg);
-  width: 150px;
-  height: 70px;
+  width: 120px;
+  height: 50px;
 }
 @media print, screen and (min-width: 768px) {
   #area3 .mokumoku1 {
-    top: 50%;
+    top: 9%;
     left: 40%;
     width: 350px;
     height: 120px;
@@ -1931,16 +1935,16 @@ footer .follow-me li a[href*=tiktok]::before {
 #area3 .mokumoku2 {
   position: absolute;
   z-index: 2;
-  top: -15%;
-  left: 60%;
+  top: -6%;
+  left: 55%;
   transform: translate(-50%, -50%);
   transform: rotate(15deg);
-  width: 150px;
+  width: 170px;
   height: 70px;
 }
 @media print, screen and (min-width: 768px) {
   #area3 .mokumoku2 {
-    top: -20%;
+    top: -12%;
     left: 40%;
     width: 350px;
     height: 120px;
@@ -1949,16 +1953,16 @@ footer .follow-me li a[href*=tiktok]::before {
 #area3 .recommend1 {
   position: absolute;
   z-index: 2;
-  font-size: 13px;
+  font-size: 11px;
   font-weight: bold;
-  top: 51%;
-  left: 62%;
+  top: 10.5%;
+  left: 67%;
   transform: translate(-50%, -50%);
   transform: rotate(18deg);
 }
 @media print, screen and (min-width: 768px) {
   #area3 .recommend1 {
-    top: 55%;
+    top: 12%;
     left: 42%;
     font-size: 30px;
   }
@@ -1973,18 +1977,18 @@ footer .follow-me li a[href*=tiktok]::before {
 #area3 .recommend2 {
   position: absolute;
   z-index: 2;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
-  top: -7%;
+  top: -4%;
   left: 64%;
   transform: translate(-50%, -50%);
   transform: rotate(18deg);
 }
 @media print, screen and (min-width: 768px) {
   #area3 .recommend2 {
-    top: -10%;
+    top: -8%;
     left: 44%;
-    font-size: 30px;
+    font-size: 22px;
   }
 }
 #area3 .recommend2::before {
@@ -1997,7 +2001,7 @@ footer .follow-me li a[href*=tiktok]::before {
 #area3 .area3-image1 {
   width: 280px;
   position: absolute;
-  top: 120%;
+  top: 233%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 4;
@@ -2005,7 +2009,7 @@ footer .follow-me li a[href*=tiktok]::before {
 @media print, screen and (min-width: 768px) {
   #area3 .area3-image1 {
     width: 300px;
-    top: 75%;
+    top: 35%;
     left: 80%;
     transform: translate(-50%, -50%);
   }
@@ -2014,7 +2018,7 @@ footer .follow-me li a[href*=tiktok]::before {
   position: absolute;
   margin: 0 auto;
   width: auto;
-  top: 240%;
+  top: -25%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -2022,14 +2026,30 @@ footer .follow-me li a[href*=tiktok]::before {
   #area3 .video1 iframe {
     width: 440px;
     height: 260px;
-    top: -250%;
+    top: -50%;
+    left: 78%;
+  }
+}
+#area3 .video2 iframe {
+  position: absolute;
+  margin: 0 auto;
+  width: auto;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media print, screen and (min-width: 768px) {
+  #area3 .video2 iframe {
+    width: 440px;
+    height: 260px;
+    top: 60%;
     left: 78%;
   }
 }
 #area3 .kira1 {
   width: 200px;
   position: absolute;
-  top: 105%;
+  top: 223%;
   left: 70%;
   transform: translate(-50%, -50%);
   z-index: 5;
@@ -2037,14 +2057,14 @@ footer .follow-me li a[href*=tiktok]::before {
 @media print, screen and (min-width: 768px) {
   #area3 .kira1 {
     width: 300px;
-    top: 60%;
+    top: 23%;
     left: 80%;
   }
 }
 #area3 .kira2 {
   width: 200px;
   position: absolute;
-  top: 105%;
+  top: 223%;
   left: 45%;
   transform: translate(-50%, -50%);
   z-index: 5;
@@ -2052,14 +2072,14 @@ footer .follow-me li a[href*=tiktok]::before {
 @media print, screen and (min-width: 768px) {
   #area3 .kira2 {
     width: 300px;
-    top: 60%;
+    top: 22%;
     left: 75%;
   }
 }
 #area3 .kira3 {
   width: 130px;
   position: absolute;
-  top: 110%;
+  top: 230%;
   left: 75%;
   transform: translate(-50%, -50%);
   transform: rotate(90deg);
@@ -2068,13 +2088,13 @@ footer .follow-me li a[href*=tiktok]::before {
 @media print, screen and (min-width: 768px) {
   #area3 .kira3 {
     width: 200px;
-    top: 65%;
+    top: 30%;
     left: 84%;
   }
 }
 #area3 .circle1, #area3 .circle2 {
   position: absolute;
-  top: 125%;
+  top: 235%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: rgba(229, 250, 252, 0.858);
@@ -2087,21 +2107,22 @@ footer .follow-me li a[href*=tiktok]::before {
   #area3 .circle1, #area3 .circle2 {
     height: 15em;
     width: 24em;
-    top: 80%;
+    top: 40%;
     left: 80%;
     transform: translate(-50%, -50%);
   }
 }
 #area3 .sim-text1, #area3 .sim-text2 {
   position: absolute;
-  width: 150px;
-  top: 130%;
+  width: 330px;
+  top: 240%;
   left: 50%;
+  padding: 5px 0;
   transform: translate(-50%, -50%);
   z-index: 5;
   background-color: #e40808;
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 1.5rem;
   font-style: italic;
   letter-spacing: 0.1em;
   color: #fff;
@@ -2109,7 +2130,8 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 @media print, screen and (min-width: 768px) {
   #area3 .sim-text1, #area3 .sim-text2 {
-    top: 85%;
+    width: 350px;
+    top: 45%;
     left: 80%;
   }
 }
@@ -2141,7 +2163,7 @@ footer .follow-me li a[href*=tiktok]::before {
   position: relative;
   padding-top: 20px;
   padding-left: 20px;
-  font-size: 32px;
+  font-size: 26px;
   border-radius: 30px;
   background-color: #ec0a0a;
   border: 1px solid rgba(255, 255, 255, 0.4);
@@ -2179,48 +2201,23 @@ footer .follow-me li a[href*=tiktok]::before {
     left: 60px;
   }
 }
-#area4 h3 {
-  color: black;
-  font-size: 20px;
-  border-left: solid 8px orange;
-  /*左側の線*/
-  background: whitesmoke;
-  /*背景色*/
-  margin-bottom: 5px;
-  /*下のバーとの余白*/
-  margin-left: 10px;
-  margin-top: 5px;
-  line-height: 1.5;
-  border-radius: 0 15px 15px 0;
-  /*右側の角だけ丸く*/
-  padding: 0.5em;
-  width: 80%;
-  list-style-type: none !important;
-}
-@media print, screen and (min-width: 768px) {
-  #area4 h3 {
-    font-size: 25px;
-    width: 50%;
-    margin-left: 30px;
-    margin-top: 25px;
-  }
-}
 #area4 .list_design1 {
   list-style: none;
   counter-reset: list;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 8px;
   border-radius: 30px;
   background-color: rgba(255, 255, 255, 0.548);
   box-shadow: 2px 2px 4px gray;
   margin-right: 5px;
-  margin-left: 10px;
+  margin-left: 5px;
+  width: 350px;
 }
 @media print, screen and (min-width: 768px) {
   #area4 .list_design1 {
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     margin: 1rem;
-    margin-left: 30px;
+    width: inherit;
   }
 }
 #area4 .list_design1 li {
@@ -2232,6 +2229,7 @@ footer .follow-me li a[href*=tiktok]::before {
   color: #333;
   font-size: 24px;
   margin-bottom: 5px;
+  overflow-wrap: break-word;
 }
 @media print, screen and (min-width: 768px) {
   #area4 .list_design1 li {
@@ -2309,24 +2307,20 @@ footer .follow-me li a[href*=tiktok]::before {
     font-size: 40px;
   }
 }
-#area4 .area4-textarea .text-display {
-  display: none;
-}
-@media print, screen and (min-width: 768px) {
-  #area4 .area4-textarea .text-display {
-    display: block;
-  }
-}
 #area4 .area4-textarea p {
   font-size: 22px;
   margin: 0;
   padding: 0;
 }
+#area4 #emoji6:before {
+  content: "🤝";
+  padding-right: 3px;
+}
 #area4 .video iframe {
   position: absolute;
   margin: 0 auto;
   width: auto;
-  top: 170%;
+  top: 151%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -2334,14 +2328,14 @@ footer .follow-me li a[href*=tiktok]::before {
   #area4 .video iframe {
     width: 440px;
     height: 260px;
-    top: 35%;
-    left: 78%;
+    top: 36%;
+    left: 80%;
   }
 }
 #area4 .mokumoku3 {
   position: absolute;
   z-index: 2;
-  top: 10%;
+  top: -2%;
   left: 60%;
   transform: translate(-50%, -50%);
   transform: rotate(15deg);
@@ -2361,7 +2355,7 @@ footer .follow-me li a[href*=tiktok]::before {
   z-index: 2;
   font-size: 11px;
   font-weight: bold;
-  top: 14%;
+  top: 0.5%;
   left: 62%;
   transform: translate(-50%, -50%);
   transform: rotate(18deg);
@@ -2383,7 +2377,7 @@ footer .follow-me li a[href*=tiktok]::before {
 #area4 .area3-image1 {
   width: 280px;
   position: absolute;
-  top: 120%;
+  top: 115%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 4;
@@ -2399,7 +2393,7 @@ footer .follow-me li a[href*=tiktok]::before {
 #area4 .kira1 {
   width: 220px;
   position: absolute;
-  top: 110%;
+  top: 105%;
   left: 75%;
   transform: translate(-50%, -50%);
   z-index: 5;
@@ -2414,7 +2408,7 @@ footer .follow-me li a[href*=tiktok]::before {
 #area4 .kira2 {
   width: 220px;
   position: absolute;
-  top: 105%;
+  top: 103%;
   left: 35%;
   transform: translate(-50%, -50%);
   z-index: 5;
@@ -2428,7 +2422,7 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 #area4 .circle3 {
   position: absolute;
-  top: 130%;
+  top: 120%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: rgba(210, 244, 247, 0.808);
@@ -2448,14 +2442,15 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 #area4 .sim-text3 {
   position: absolute;
-  width: 150px;
-  top: 135%;
+  padding: 5px 0;
+  width: 250px;
+  top: 125%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 5;
   background-color: #e40808;
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 1.5rem;
   font-style: italic;
   letter-spacing: 0.1em;
   color: #fff;
@@ -2463,7 +2458,7 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 @media print, screen and (min-width: 768px) {
   #area4 .sim-text3 {
-    top: 90%;
+    top: 92%;
     left: 80%;
   }
 }
@@ -2499,7 +2494,7 @@ footer .follow-me li a[href*=tiktok]::before {
   position: relative;
   padding-top: 20px;
   padding-left: 20px;
-  font-size: 32px;
+  font-size: 28px;
   border-radius: 30px;
   background-color: #ec0a0a;
   border: 1px solid rgba(255, 255, 255, 0.4);
@@ -2567,7 +2562,7 @@ footer .follow-me li a[href*=tiktok]::before {
   list-style: none;
   counter-reset: list;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 8px;
   border-radius: 30px;
   background-color: rgba(255, 255, 255, 0.548);
   box-shadow: 2px 2px 4px gray;
@@ -2576,7 +2571,7 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 @media print, screen and (min-width: 768px) {
   #area5 .list_design1 {
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     margin: 1rem;
     margin-left: 30px;
   }
@@ -2585,6 +2580,7 @@ footer .follow-me li a[href*=tiktok]::before {
   position: relative;
   padding: 10px 20px;
   padding-left: 63px;
+  padding-right: 0px;
   line-height: 30px;
   border-bottom: 2px dotted red;
   color: #333;
@@ -2644,7 +2640,7 @@ footer .follow-me li a[href*=tiktok]::before {
   #area5 .area5-textarea {
     margin-left: 30px;
     margin-bottom: 100px;
-    width: 40%;
+    width: 45%;
     max-width: 1300px;
   }
 }
@@ -2667,24 +2663,25 @@ footer .follow-me li a[href*=tiktok]::before {
     font-size: 40px;
   }
 }
-#area5 .area5-textarea .text-display {
-  display: none;
-}
-@media print, screen and (min-width: 768px) {
-  #area5 .area5-textarea .text-display {
-    display: block;
-  }
-}
 #area5 .area5-textarea p {
   font-size: 22px;
   margin: 0;
   padding: 0;
+  overflow-wrap: break-word;
+}
+#area5 #emoji7:before {
+  content: "⚠";
+  padding-right: 3px;
+}
+#area5 #emoji8:before {
+  content: "🤝";
+  padding-right: 3px;
 }
 #area5 .video iframe {
   position: absolute;
   margin: 0 auto;
   width: auto;
-  top: 170%;
+  top: 121%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -2692,14 +2689,14 @@ footer .follow-me li a[href*=tiktok]::before {
   #area5 .video iframe {
     width: 440px;
     height: 260px;
-    top: 35%;
-    left: 78%;
+    top: 25%;
+    left: 80%;
   }
 }
 #area5 .mokumoku3 {
   position: absolute;
   z-index: 2;
-  top: 6%;
+  top: 0%;
   left: 60%;
   transform: translate(-50%, -50%);
   transform: rotate(15deg);
@@ -2709,7 +2706,7 @@ footer .follow-me li a[href*=tiktok]::before {
 @media print, screen and (min-width: 768px) {
   #area5 .mokumoku3 {
     top: 5%;
-    left: 30%;
+    left: 45%;
     width: 350px;
     height: 120px;
   }
@@ -2719,16 +2716,16 @@ footer .follow-me li a[href*=tiktok]::before {
   z-index: 2;
   font-size: 11px;
   font-weight: bold;
-  top: 10%;
-  left: 62%;
+  top: 0.7%;
+  left: 67%;
   transform: translate(-50%, -50%);
   transform: rotate(18deg);
 }
 @media print, screen and (min-width: 768px) {
   #area5 .recommend3 {
-    top: 10%;
-    left: 32%;
-    font-size: 25px;
+    top: 6%;
+    left: 50%;
+    font-size: 24px;
   }
 }
 #area5 .recommend3::before {
@@ -2742,7 +2739,7 @@ footer .follow-me li a[href*=tiktok]::before {
 #area5 .area5-image2 {
   width: 180px;
   position: absolute;
-  top: 120%;
+  top: 106%;
   left: 30%;
   transform: translate(-50%, -50%);
   z-index: 4;
@@ -2750,8 +2747,8 @@ footer .follow-me li a[href*=tiktok]::before {
 @media print, screen and (min-width: 768px) {
   #area5 .area5-image1,
 #area5 .area5-image2 {
-    width: 240px;
-    top: 80%;
+    width: 300px;
+    top: 65%;
     left: 65%;
     transform: translate(-50%, -50%);
   }
@@ -2763,7 +2760,7 @@ footer .follow-me li a[href*=tiktok]::before {
 @media print, screen and (min-width: 768px) {
   #area5 .area5-image2 {
     width: 240px;
-    top: 78%;
+    top: 68%;
     left: 85%;
     transform: translate(-50%, -50%);
   }
@@ -2771,7 +2768,7 @@ footer .follow-me li a[href*=tiktok]::before {
 #area5 .kira1 {
   width: 220px;
   position: absolute;
-  top: 110%;
+  top: 102%;
   left: 58%;
   transform: translate(-50%, -50%);
   z-index: 5;
@@ -2779,14 +2776,14 @@ footer .follow-me li a[href*=tiktok]::before {
 @media print, screen and (min-width: 768px) {
   #area5 .kira1 {
     width: 200px;
-    top: 60%;
+    top: 55%;
     left: 83%;
   }
 }
 #area5 .kira2 {
   width: 220px;
   position: absolute;
-  top: 105%;
+  top: 101%;
   left: 35%;
   transform: translate(-50%, -50%);
   z-index: 5;
@@ -2794,14 +2791,14 @@ footer .follow-me li a[href*=tiktok]::before {
 @media print, screen and (min-width: 768px) {
   #area5 .kira2 {
     width: 320px;
-    top: 63%;
+    top: 55%;
     left: 65%;
   }
 }
 #area5 .kira3 {
   width: 220px;
   position: absolute;
-  top: 105%;
+  top: 101%;
   left: 35%;
   transform: translate(-50%, -50%);
   z-index: 5;
@@ -2809,13 +2806,13 @@ footer .follow-me li a[href*=tiktok]::before {
 @media print, screen and (min-width: 768px) {
   #area5 .kira3 {
     width: 300px;
-    top: 65%;
+    top: 58%;
     left: 85%;
   }
 }
 #area5 .circle3 {
   position: absolute;
-  top: 130%;
+  top: 108%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: rgba(210, 244, 247, 0.808);
@@ -2826,23 +2823,23 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 @media print, screen and (min-width: 768px) {
   #area5 .circle3 {
-    height: 12em;
+    height: 20em;
     width: 38em;
-    top: 90%;
+    top: 70%;
     left: 75%;
     transform: translate(-50%, -50%);
   }
 }
 #area5 .sim-text3 {
   position: absolute;
-  width: 150px;
-  top: 135%;
+  width: 250px;
+  top: 110%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 5;
   background-color: #e40808;
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 24px;
   font-style: italic;
   letter-spacing: 0.1em;
   color: #fff;
@@ -2850,7 +2847,9 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 @media print, screen and (min-width: 768px) {
   #area5 .sim-text3 {
-    top: 95%;
+    font-size: 2.4rem;
+    width: 400px;
+    top: 75%;
     left: 75%;
   }
 }
@@ -3009,9 +3008,9 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 #area5 .area5-lower h2 {
   position: absolute;
-  width: 800px;
+  width: 380px;
   top: 40%;
-  left: 110%;
+  left: 55%;
   transform: translate(-50%, -50%);
   font-size: 2.2rem;
   font-style: italic;
@@ -3109,7 +3108,7 @@ footer .follow-me li a[href*=tiktok]::before {
 }
 @media print, screen and (min-width: 768px) {
   #area5 .area5-lower .tel-btn {
-    font-size: 33px;
+    font-size: 32px;
     width: 40vw;
   }
 }
