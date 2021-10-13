@@ -2563,7 +2563,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   position: relative;
   padding-top: 20px;
   padding-left: 20px;
-  font-size: 28px;
+  font-size: 26px;
   border-radius: 30px;
   background-color: #ec0a0a;
   border: 1px solid rgba(255, 255, 255, 0.4);
@@ -3341,7 +3341,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 
 #area5 .sim-text3 {
   position: absolute;
-  width: 150px;
+  width: 250px;
   top: 110%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -3349,7 +3349,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   z-index: 5;
   background-color: #e40808;
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 24px;
   font-style: italic;
   letter-spacing: 0.1em;
   color: #fff;
@@ -3358,6 +3358,8 @@ footer .follow-me li a[href*="tiktok"]::before {
 
 @media print, screen and (min-width: 768px) {
   #area5 .sim-text3 {
+    font-size: 2.4rem;
+    width: 400px;
     top: 75%;
     left: 75%;
   }
