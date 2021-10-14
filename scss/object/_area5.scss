@@ -19,7 +19,7 @@
     position: relative;
     padding-top: 20px;
     padding-left: 20px;
-    font-size: 28px;
+    font-size: 1.5rem;
     border-radius: 30px;
     background-color: rgb(236, 10, 10);
     border: 1px solid rgba(255, 255, 255, 0.4);
@@ -191,7 +191,7 @@
     position: absolute;
     margin: 0 auto;
     width: auto;
-    top: 121%;
+    top: 122%;
     left: 50%;
     transform: translate(-50%, -50%);
     @include overTab {
@@ -204,7 +204,7 @@
   .mokumoku3 {
     position: absolute;
     z-index: 2;
-    top: 0%;
+    top: -3%;
     left: 60%;
     transform: translate(-50%, -50%);
     transform: rotate(15deg);
@@ -222,7 +222,7 @@
     z-index: 2;
     font-size: 11px;
     font-weight: bold;
-    top: 0.7%;
+    top: -2%;
     left: 67%;
     transform: translate(-50%, -50%);
     transform: rotate(18deg);

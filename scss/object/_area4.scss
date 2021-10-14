@@ -16,7 +16,7 @@
     position: relative;
     padding-top: 20px;
     padding-left: 20px;
-    font-size: 26px;
+    font-size: 1.4rem;
     border-radius: 30px;
     background-color: rgb(236, 10, 10);
     border: 1px solid rgba(255, 255, 255, 0.4);
@@ -60,7 +60,7 @@
     box-shadow: 2px 2px 4px gray;
     margin-right: 5px;
     margin-left: 5px;
-    width: 350px;
+    width: 90vw;
     @include overTab {
       padding: 1rem 1rem;
       margin: 1rem;
@@ -166,7 +166,7 @@
     top: 151%;
     left: 50%;
     transform: translate(-50%, -50%);
-     @include overTab {
+    @include overTab {
       width: 440px;
       height: 260px;
       top: 36%;
@@ -176,7 +176,7 @@
   .mokumoku3 {
     position: absolute;
     z-index: 2;
-    top: -2%;
+    top: 4%;
     left: 60%;
     transform: translate(-50%, -50%);
     transform: rotate(15deg);
@@ -194,7 +194,7 @@
     z-index: 2;
     font-size: 11px;
     font-weight: bold;
-    top: 0.5%;
+    top: 7%;
     left: 62%;
     transform: translate(-50%, -50%);
     transform: rotate(18deg);
@@ -225,7 +225,7 @@
       transform: translate(-50%, -50%);
     }
   }
-  .kira1{
+  .kira1 {
     width: 220px;
     position: absolute;
     top: 105%;
@@ -238,7 +238,7 @@
       left: 88%;
     }
   }
-  .kira2{
+  .kira2 {
     width: 220px;
     position: absolute;
     top: 103%;
@@ -286,7 +286,7 @@
     text-shadow: -3px 2px 0 #000;
     @include overTab {
       top: 92%;
-      left: 80%;   
+      left: 80%;
     }
   }
 }
